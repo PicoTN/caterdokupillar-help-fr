@@ -9,7 +9,7 @@
       <area target="" alt="Apertif" title="Apertif" @click="showPuzzle(1)" coords="221,187,146,124,365,38" shape="rect">
     </map> -->
 
-    <p class="margin-bottom">This document is intended to assist you in completing the Caterdokupillar. Start in the top left, and as each 6x6 puzzle is completed, 4 digits will automatically carry over as givens for the next puzzle. Read the rules carefully for each puzzle, as many contain variants.</p>
+    <p class="margin-bottom">Ce document est destiné à vous aider à compléter le Caterdokupillar. Commencez en haut à gauche et, à mesure que chaque puzzle 6x6 est terminé, 4 chiffres seront automatiquement reportés comme valeurs pour le puzzle suivant. Lisez attentivement les règles de chaque puzzle, car beaucoup contiennent des variantes.</p>
     <p class="margin-bottom">Furthermore, if you get stuck on a particular puzzle, don't fret, as that's where this document comes in. It not only contains the rules for each puzzle, but most importantly, it has the digits you need for the next puzzle available for viewing.</p>
     <p class="margin-bottom">We want to express our sincere appreciation to everyone who contributed to this project: the 189 creative puzzle setters, 15 dedicated volunteers, and our thorough testers. Your hard work has brought this project to life. Thanks also to you, our solvers, for being part of the experience.</p>
     <p class="margin-bottom">The Caterdokupillar is available in several forms. It is available as a whole singular puzzle and as chunks for easier handling. All links will open in a new tab.</p> 
