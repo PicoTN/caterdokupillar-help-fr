@@ -2,7 +2,7 @@
   {
     "title": "Face of Eternity",
     "author": "theasylm",
-    "rules": "Normal 6x6 Sudoku rules apply. Place the digits 1-6 exactly once in every row, column, and 2x3 box.\n\nJapanese Sums: The squares outside the grid indicate the order of the runs of contiguous cells that must be shaded the color of the clue. The number in the square indicates the sum of the cells in the run. All shaded runs are given. \n\nColors used in this puzzle are Green, Red, Black, Yellow. For best results, remove all unshaded marking you have done once completed.",
+    "rules": "Les règles normales du Sudoku 6x6 s'appliquent. Placez les chiffres 1 à 6 exactement une fois dans chaque ligne, colonne et case 2x3.\n\nSommes japonaises : les cases à l'extérieur de la grille indiquent l'ordre des séries de cellules contiguës qui doivent être colorées de la couleur de l'indice. Le nombre dans la case indique la somme des cellules de la série. Toutes les séries colorées sont indiquées. \n\nLes couleurs utilisées dans ce puzzle sont le vert, le rouge, le noir et le jaune.",
     "digits": "5623"
   },
   {
