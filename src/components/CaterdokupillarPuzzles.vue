@@ -148,9 +148,9 @@
         <v-expansion-panel v-if="imageIds.includes(filteredPuzzles[index].originalIndex + 1)" title="Example Image">
           <v-expansion-panel-text>
             <img 
-              :src="`/caterdokupillar-help/assets/${filteredPuzzles[index].originalIndex + 1}.png`"  
+              :src="`/caterdokupillar-help-fr/assets/${filteredPuzzles[index].originalIndex + 1}.png`"  
               width="90%" style="cursor: pointer;" 
-              @click="openImageModal(`/caterdokupillar-help/assets/${filteredPuzzles[index].originalIndex + 1}.png`)" />
+              @click="openImageModal(`/caterdokupillar-help-fr/assets/${filteredPuzzles[index].originalIndex + 1}.png`)" />
           </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel title="Digits">
