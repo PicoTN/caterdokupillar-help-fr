@@ -55,73 +55,73 @@
     {
         "title": "Renban Sudoku",
         "author": "the_cogito",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nThe circles in the top left are for the next puzzle, ignore them for now.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nLignes Renban : Les chiffres sur une ligne violette forment un ensemble de chiffres consécutifs non répétitifs dans n'importe quel ordre.\n\nLes cercles en haut à gauche sont pour le prochain puzzle, ignorez-les pour l'instant.",
         "digits": "1425"
     },
     {
         "title": "Sandwich Sudoku",
         "author": "clover!",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nSandwich Sums: Circled digits outside this 6x6 grid indicate the sum of the digits that are placed in-between the 1 and 6 in that row or column. This includes circled digits in the previous grid. ",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nSommes Sandwich : les chiffres entourés en dehors de cette grille 6x6 indiquent la somme des chiffres placés entre 1 et 6 dans cette ligne ou colonne. Cela inclut les chiffres entourés dans la grille précédente.",
         "digits": "5361"
     },
     {
         "title": "Cave Sudoku",
         "author": "Piatato",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nCave: Shade some cells to form a cave, in such a way that all unshaded cells are orthogonally connected and all shaded cells are orthogonally connected by other shaded cells to an edge of the grid. Cells that contain a star must be unshaded, and a digit placed in such a cell indicates the total number of cells seen in all four orthogonal directions, including itself, where shaded cells obstruct vision.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nCave : Ombrez certaines cellules pour former une grotte, de telle sorte que toutes les cellules non ombrées sont connectées orthogonalement entre elles et toutes les cellules ombrées sont connectées orthogonalement par d'autres cellules ombrées à un bord de la grille. Les cellules contenant une étoile ne doivent pas être ombrées, et un chiffre placé dans une telle cellule indique le nombre total de cellules vues dans les quatre directions orthogonales, y compris elle-même, où les cellules ombrées bloquent la vision.",
         "digits": "2415"
     },
     {
         "title": "The Sky's the Limit",
         "author": "JMoat13",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nCounting Circles: A digit in a circle indicates exactly how many circles contain that digit.\nDigits in circles outside of the grid are Skyscraper clues.\n\nSkyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. Clues outside the grid indicate the number of skyscrapers seen in that row/column, from the line of sight of the clue. ",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nCercles de Comptage : un chiffre dans un cercle indique exactement combien de cercles contiennent ce chiffre.\nLes chiffres dans les cercles en dehors de la grille sont des indices de gratte-ciel.\n\nGratte-ciels : les chiffres dans la grille représentent des gratte-ciel, leurs valeurs correspondant à leurs hauteurs. Les gratte-ciels plus hauts cachent tous les gratte-ciels plus petits derrière eux. Les indices en dehors de la grille indiquent le nombre de gratte-ciels visibles dans cette ligne/colonne, à partir de l'indice.",
         "digits": "4163"
     },
     {
         "title": "Every Cage a Unique Fibonacci",
         "author": "TwoHoleStraw",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nFibonacci Cages: Digits in cages cannot repeat and sum to a Fibonacci number (1, 2, 3, 5, 8, 13, 21). Each cage must sum to a different value.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nCages de Fibonacci : les chiffres dans les cages ne peuvent pas se répéter et leur somme est un nombre de Fibonacci (1, 2, 3, 5, 8, 13, 21). Chaque cage doit totaliser une valeur différente.",
         "digits": "6524"
     },
     {
         "title": "Sum or Product",
         "author": "James Sinclair",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nSum or Product Cages: Digits in cages cannot repeat and either sum or multiply to the value in the top left (or possibly both).",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nCages somme ou produit : les chiffres dans les cages ne peuvent pas se répéter et s'additionnent ou se multiplient pour donner la valeur en haut à gauche (ou éventuellement les deux).",
         "digits": "2463"
     },
     {
         "title": "Blueberry Crunch",
         "author": "Tyrgannus",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nPrime-Composite Dots: Digits separated by either shape must sum to 7 or less.\nDigits separated by a circle sum to a prime number.\nDigits separated by a square sum to a composite (non-prime) number.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nPoints premiers-composés : les chiffres séparés par l'une ou l'autre forme doivent totaliser 7 ou moins.\nLes chiffres séparés par un cercle totalisent un nombre premier.\nLes chiffres séparés par un carré totalisent un nombre non premier.",
         "digits": "1364"
     },
     {
         "title": "Grammar Nazi",
         "author": "Chameleon",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Count Cages: A digit next to a white dot in the top left of a cage indicates exactly how many white Kropki dots can be placed in the cage, and a digit next to a black dot in the top left of a cage indicates exactly how many black Kropki dots can be placed in the cage, if given.\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio.\nIn this puzzle a 1 adjacent to a 2 counts as both a black and a white dot.\nDigits are allowed to repeat in cages as normally allowed by other rules.\n\nFor instance, a '2⬤ 0◯' clue will indicate that there are exactly 2 black dots and 0 white dots in the cage, and a '1◯' clue will indicate that there's 1 white dot and any amount of black dots.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nCages de comptage Kropki : un chiffre à côté d'un point blanc en haut à gauche d'une cage indique exactement combien de points Kropki blancs peuvent être placés dans la cage, et un chiffre à côté d'un point noir en haut à gauche d'une cage indique exactement combien de points Kropki noirs peuvent être placés dans la cage, si cela est donné.\nPoints Kropki : les chiffres séparés par un point blanc sont consécutifs. Les chiffres séparés par un point noir ont un rapport de 1:2.\nDans ce puzzle, un 1 adjacent à un 2 compte à la fois comme un point noir et un point blanc.\nLes chiffres peuvent se répéter dans les cages comme le permettent normalement d'autres règles.\n\nPar exemple, un indice « 2⬤ 0◯ » indiquera qu'il y a exactement 2 points noirs et 0 point blanc dans la cage, et un indice « 1◯ » indiquera qu'il y a 1 point blanc et n'importe quelle quantité de points noirs.",
         "digits": "5126"
     },
     {
         "title": "Counting Spring Rolls",
         "author": "Gene",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nCounting Circles: A digit in a circle indicates exactly how many circles contain that digit.\nDigits in circles outside of the grid are Spring Roll clues.\n\nSpring Rolls: Within the first four cells from the direction of the clue, find the highest and the lowest digit. The clue outside the grid indicates the sum of the digits that are placed in-between those two cells.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nCercles de comptages: un chiffre dans un cercle indique exactement combien de cercles contiennent ce chiffre.\nLes chiffres dans les cercles en dehors de la grille sont des indices de rouleaux de printemps.\n\nRouleaux de printemps : dans les quatre premières cellules de la grille à partir de l'indice, trouvez le chiffre le plus élevé et le plus bas. L'indice à l'extérieur de la grille indique la somme des chiffres qui sont placés entre ces deux cellules.",
         "digits": "1342"
     },
     {
         "title": "Hint of Providence",
         "author": "Mormagli ",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nEntropic Lines:  Any three adjacent digits along a peach entropic line are from one each of low(1,2), medium(3,4), and high(5,6) digits. \n\nGerman Whispers Lines: Adjacent digits along the green line must have a difference of at least 3. Crossing lines do not connect and all lines are straight.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nLignes entropiques : trois chiffres adjacents le long d'une ligne entropique pêche proviennent de chacun des chiffres bas (1,2), moyens (3,4) et élevés (5,6). \n\nLignes German Whispers : les chiffres adjacents le long de la ligne verte doivent avoir une différence d'au moins 3. Les lignes qui se croisent ne sont pas connectées et toutes les lignes sont droites.",
         "digits": "6524"
     },
     {
         "title": "Double-Booked",
         "author": "XeonRisq",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nRemote sums: A digit N in a cage points at one of the digits X, that is N cells away vertically or horizontally. The number given in the cage is the sum of N+X.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nSommes distantes : un chiffre N dans une cage pointe vers l'un des chiffres X se trouvant à N cellules de distance verticalement ou horizontalement. Le nombre donné dans la cage est la somme de N+X.",
         "digits": "1632"
     },
     {
         "title": "Arrow Sudoku",
         "author": "Swaroop Guggilam",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nFlèches : un chiffre dans un cercle est égal à la somme des chiffres de la flèche attachée. Les chiffres peuvent se répéter le long des flèches comme le permettent normalement les autres règles.",
         "digits": "2543"
     },
     {
