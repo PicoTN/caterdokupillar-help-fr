@@ -127,31 +127,31 @@
     {
         "title": "Linesweeper Sudoku",
         "author": "Phistomefel",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nLine Sweepers: Draw a loop into the grid that only moves orthogonally and doesn't branch or intersect itself. Loop sections may touch each other orthogonally and diagonally.\nA digit in a circle indicates how many of the cells in the surrounding 3x3 area centered on the circle are visited, including the circled cell.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nLine Sweepers : dessinez une boucle dans la grille qui se déplace uniquement orthogonalement et ne se divise pas et ne se croise pas. Les sections de boucle peuvent se toucher orthogonalement et en diagonale.\nUn chiffre dans un cercle indique combien de cellules dans la zone 3x3 environnante centrée sur le cercle sont visitées, y compris la cellule entourée.",
         "digits": "6351"
     },
     {
         "title": "Narcisse",
         "author": "Christounet",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and the values of all cells in the cage sum to the number in the top left.\n\nMirrored digits: There are 6 mirrored digits hidden in the grid, exactly one in every row, column, and box. Every digit appears in a mirrored cell exactly once. For the purpose of killer cages, a digit X in a mirrored cell will have a value of 7-X. For example, the digit 1 would have a value of 6, and vice versa.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nKiller Cages : les chiffres dans les cages ne peuvent pas se répéter et les valeurs de toutes les cellules de la cage s'additionnent au nombre en haut à gauche.\n\nChiffres en miroir : il y a 6 chiffres en miroir cachés dans la grille, exactement un dans chaque ligne, colonne et case. Chaque chiffre apparaît dans une cellule en miroir exactement une fois. Dans le cadre des cages tueuses, un chiffre X dans une cellule en miroir aura une valeur de 7-X. Par exemple, le chiffre 1 aurait une valeur de 6, et vice versa.",
         "digits": "2546"
     },
     {
         "title": "Region Sum Lines Sudoku",
         "author": "Florian Wortmann",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nLignes de somme des régions : les lignes bleues sont divisées en segments par des bordures de boîte. Dans chaque ligne individuelle, la somme des chiffres de chaque segment est la même.",
         "digits": "3152"
     },
     {
         "title": "Tapa Sudoku",
         "author": "DiMono",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nTapa: Shade some cells so that all shaded cells form one orthogonally connected area and no 2x2 is entirely shaded. \nRed cells cannot be shaded and contain a digit indicating the length of the connected group of shaded cells in its up to 8 surrounding cells.\nIf adjacent cells are either both shaded or both unshaded they may not contain consecutive digits.\n\nShaded sums: Clues outside the grid indicate the sum of digits in shaded cells in its row or column.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nTapa : ombragez certaines cellules de sorte que toutes les cellules ombrées forment une zone connectée orthogonalement et qu'aucun zone de 2x2 ne soit entièrement ombré. \nLes cellules rouges ne peuvent pas être ombrées et contiennent un chiffre indiquant la longueur du groupe connecté de cellules ombrées dans ses 8 cellules environnantes.\nSi deux cellules adjacentes sont toutes les deux ombrées ou toutes les deux non ombrées, elles ne peuvent pas contenir de chiffres consécutifs.\n\nSommes ombrées : les indices en dehors de la grille indiquent la somme des chiffres dans les cellules ombrées de sa ligne ou de sa colonne.",
         "digits": "6524"
     },
     {
         "title": "Little Killer-X Sums-Kropki Pairs Sudoku ",
         "author": "Akash Doulani ",
-        "rules": "Normal 6x6 Sudoku rules apply.\n\nLittle Killer: Numbers outside the grid are the sum of the digits pointed to along the indicated diagonal. Digits are allowed to repeat along those diagonals as normally allowed by the other rules.\n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue.\n\nDuality: All clues are both Little Killer and X-Sums. \n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nLittle Killer : les nombres en dehors de la grille sont la somme des chiffres pointés le long de la diagonale indiquée. Les chiffres peuvent se répéter le long de ces diagonales comme le permettent normalement les autres règles.\n\nX-Sums : les chiffres en dehors de la grille indiquent la somme des X premiers chiffres, où X est le chiffre dans la cellule la plus proche de l'indice.\n\nDuality : tous les indices sont à la fois Little Killer et X-Sums. \n\nKropki Dots : les chiffres séparés par un point noir ont un rapport de 1:2. Tous les points ne sont pas nécessairement donnés.",
         "digits": "4312"
     },
     {

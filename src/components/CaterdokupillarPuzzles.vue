@@ -118,10 +118,10 @@
           ></v-text-field>
         </v-col>
         <v-col cols="12" md="3" sm="2" class="d-flex justify-center">
-          <v-btn class="mt-4" @click="openAllPanels" size="x-large">Ouvrir les Puzzles séléctionnés' Rules</v-btn>
+          <v-btn class="mt-4" @click="openAllPanels" size="x-large">Ouvrir les Puzzles séléctionnés</v-btn>
         </v-col>
         <v-col cols="12" md="3" sm="2" class="d-flex justify-center">
-          <v-btn class="mt-4" @click="closeAllPanels" size="x-large">Fermez tous les Puzzles' Rules</v-btn>
+          <v-btn class="mt-4" @click="closeAllPanels" size="x-large">Fermez tous les Puzzles</v-btn>
         </v-col>
       </v-row>
     </v-container>
@@ -133,19 +133,19 @@
         <h3 v-html="`par ${filteredPuzzles[index].highlightedAuthor}`"></h3>
       </div>
       <v-expansion-panels v-model="openPanels[filteredPuzzles[index].originalIndex]" variant="accordion" multiple>
-        <v-expansion-panel title="Rules">
+        <v-expansion-panel title="Règles">
           <v-expansion-panel-text>
             <div v-html="filteredPuzzles[index].highlightedRules"></div>
           </v-expansion-panel-text>
         </v-expansion-panel>
-        <v-expansion-panel v-if="puzzle.originalIndex == 58" title="Hints">
+        <v-expansion-panel v-if="puzzle.originalIndex == 58" title="Indices">
           <v-expansion-panel-text>
-            <div>Small: <span class="hidden-hint" id="hidden-hint-s" @click="unhideHint('hidden-hint-s')">Try to think "Outside the Box".</span></div>
-            <div>Medium: <span class="hidden-hint" id="hidden-hint-m" @click="unhideHint('hidden-hint-m')">Is there any other way, according to the rules, that the 19 clue can be satisfied?</span></div>
-            <div>Large: <span class="hidden-hint" id="hidden-hint-l" @click="unhideHint('hidden-hint-l')">The 19 has to look down, placing numbers outside the grid, ie more clues.</span></div>
+            <div>Small: <span class="hidden-hint" id="hidden-hint-s" @click="unhideHint('hidden-hint-s')">Essayez de penser "Outside the Box".</span></div>
+            <div>Medium: <span class="hidden-hint" id="hidden-hint-m" @click="unhideHint('hidden-hint-m')">Existe-t-il un autre moyen, selon les règles, de satisfaire l'indice 19 ?</span></div>
+            <div>Large: <span class="hidden-hint" id="hidden-hint-l" @click="unhideHint('hidden-hint-l')">Le 19 doit regarder vers le bas, plaçant des numéros en dehors de la grille, c'est-à-dire plus d'indices.</span></div>
           </v-expansion-panel-text>
         </v-expansion-panel>
-        <v-expansion-panel v-if="imageIds.includes(filteredPuzzles[index].originalIndex + 1)" title="Example Image">
+        <v-expansion-panel v-if="imageIds.includes(filteredPuzzles[index].originalIndex + 1)" title="Image Example">
           <v-expansion-panel-text>
             <img 
               :src="`/caterdokupillar-help-fr/assets/${filteredPuzzles[index].originalIndex + 1}.png`"  
@@ -153,7 +153,7 @@
               @click="openImageModal(`/caterdokupillar-help-fr/assets/${filteredPuzzles[index].originalIndex + 1}.png`)" />
           </v-expansion-panel-text>
         </v-expansion-panel>
-        <v-expansion-panel title="Digits">
+        <v-expansion-panel title="Chiffres">
           <v-expansion-panel-text>
             <div v-html="formatDigits(filteredPuzzles[index].digits)"></div>
           </v-expansion-panel-text>
