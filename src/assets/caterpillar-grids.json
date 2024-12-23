@@ -1,1135 +1,1134 @@
-[
-  {
-    "title": "Face of Eternity",
-    "author": "theasylm",
-    "rules": "Les règles normales du Sudoku 6x6 s'appliquent. Placez les chiffres 1 à 6 exactement une fois dans chaque ligne, colonne et case 2x3.\n\nSommes japonaises : les cases à l'extérieur de la grille indiquent l'ordre des séries de cellules contiguës qui doivent être colorées de la couleur de l'indice. Le nombre dans la case indique la somme des cellules de la série. Toutes les séries colorées sont indiquées. \n\nLes couleurs utilisées dans ce puzzle sont le vert, le rouge, le noir et le jaune.",
-    "digits": "5623"
-  },
-  {
-    "title": "Aperitif",
-    "author": "Tallcat",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order. ",
-    "digits": "4513"
-  },
-  {
-    "title": "Wheels",
-    "author": "Alaric Taqi A. (Crusader175)",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nWheels: Digits in a grey circle have to be placed in the same circular order in the four cells that are touched by the circle. The circles might have to be rotated to the correct position by 90°, 180°, or 270°. Digits are allowed to repeat on wheels as normally allowed by other rules. \n",
-    "digits": "3462"
-  },
-  {
-    "title": "Arrow Sudoku",
-    "author": "Agent",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules. ",
-    "digits": "2153"
-  },
-  {
-    "title": "Metamorphosnipe",
-    "author": "Philip Newman",
-    "rules": "Select exactly 6 digits from 1-9 and place them exactly once in every row, column and 2x3 box.\n\nMultiplicative Arrow: The product of the digits along an arrow is equal to the number in its connected circle or pill. Digits in pills are two digit numbers read left to right or top to bottom. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "1432"
-  },
-  {
-    "title": "Moon-Sun Caterdokupillar ",
-    "author": "Math Pesto",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDraw a non-branching, non-intersecting orthogonally traveling loop that visits each box exactly once. Within each box, the loop either passes through all moons and no suns, or all suns and no moons. The loop cannot pass through the same type of clue in two consecutively used regions. The loop acts as a German Whispers line\n\nGerman Whispers line: Adjacent digits along these lines must have a difference of at least 3.",
-    "digits": "5346"
-  },
-  {
-    "title": "Double or Nothin'",
-    "author": "Kennet's Dad",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nGarden Path Lines: Blue lines are split into segments by box borders. For each line, the sum of one segment will be double the sum of the other segment.",
-    "digits": "4615"
-  },
-  {
-    "title": "Caterdokupillar X-Cages",
-    "author": "kuraban",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nBYO Killer: Draw killer cages into the grid so that each cage contains exactly one clued cell and cages don't overlap. The clued cell must end up as the left-most cell of the top row of the cage and the digit in the circle indicates the amount of cells that the cage it's in contains. Digits in killer cages cannot repeat and sum to the value in the top left of the clued cell.",
-    "digits": "1536"
-  },
-  {
-    "title": "Signal Processing",
-    "author": "FullDeck and Missing a Few Cards",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nPalindromes: The digits on a grey line read the same forwards and backwards.\n\nQuadruples: Digits in the circles must all appear at least once in the cells touching them.",
-    "digits": "3156"
-  },
-  {
-    "title": "Renban Sudoku",
-    "author": "the_cogito",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nThe circles in the top left are for the next puzzle, ignore them for now.",
-    "digits": "1425"
-  },
-  {
-    "title": "Sandwich Sudoku",
-    "author": "clover!",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSandwich Sums: Circled digits outside this 6x6 grid indicate the sum of the digits that are placed in-between the 1 and 6 in that row or column. This includes circled digits in the previous grid. ",
-    "digits": "5361"
-  },
-  {
-    "title": "Cave Sudoku",
-    "author": "Piatato",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nCave: Shade some cells to form a cave, in such a way that all unshaded cells are orthogonally connected and all shaded cells are orthogonally connected by other shaded cells to an edge of the grid. Cells that contain a star must be unshaded, and a digit placed in such a cell indicates the total number of cells seen in all four orthogonal directions, including itself, where shaded cells obstruct vision.",
-    "digits": "2415"
-  },
-  {
-    "title": "The Sky's the Limit",
-    "author": "JMoat13",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nCounting Circles: A digit in a circle indicates exactly how many circles contain that digit.\nDigits in circles outside of the grid are Skyscraper clues.\n\nSkyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. Clues outside the grid indicate the number of skyscrapers seen in that row/column, from the line of sight of the clue. ",
-    "digits": "4163"
-  },
-  {
-    "title": "Every Cage a Unique Fibonacci",
-    "author": "TwoHoleStraw",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nFibonacci Cages: Digits in cages cannot repeat and sum to a Fibonacci number (1, 2, 3, 5, 8, 13, 21). Each cage must sum to a different value.",
-    "digits": "6524"
-  },
-  {
-    "title": "Sum or Product",
-    "author": "James Sinclair",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSum or Product Cages: Digits in cages cannot repeat and either sum or multiply to the value in the top left (or possibly both).",
-    "digits": "2463"
-  },
-  {
-    "title": "Blueberry Crunch",
-    "author": "Tyrgannus",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nPrime-Composite Dots: Digits separated by either shape must sum to 7 or less.\nDigits separated by a circle sum to a prime number.\nDigits separated by a square sum to a composite (non-prime) number.",
-    "digits": "1364"
-  },
-  {
-    "title": "Grammar Nazi",
-    "author": "Chameleon",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Count Cages: A digit next to a white dot in the top left of a cage indicates exactly how many white Kropki dots can be placed in the cage, and a digit next to a black dot in the top left of a cage indicates exactly how many black Kropki dots can be placed in the cage, if given.\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio.\nIn this puzzle a 1 adjacent to a 2 counts as both a black and a white dot.\nDigits are allowed to repeat in cages as normally allowed by other rules.\n\nFor instance, a '2⬤ 0◯' clue will indicate that there are exactly 2 black dots and 0 white dots in the cage, and a '1◯' clue will indicate that there's 1 white dot and any amount of black dots.",
-    "digits": "5126"
-  },
-  {
-    "title": "Counting Spring Rolls",
-    "author": "Gene",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nCounting Circles: A digit in a circle indicates exactly how many circles contain that digit.\nDigits in circles outside of the grid are Spring Roll clues.\n\nSpring Rolls: Within the first four cells from the direction of the clue, find the highest and the lowest digit. The clue outside the grid indicates the sum of the digits that are placed in-between those two cells.",
-    "digits": "1342"
-  },
-  {
-    "title": "Hint of Providence",
-    "author": "Mormagli ",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nEntropic Lines:  Any three adjacent digits along a peach entropic line are from one each of low(1,2), medium(3,4), and high(5,6) digits. \n\nGerman Whispers Lines: Adjacent digits along the green line must have a difference of at least 3. Crossing lines do not connect and all lines are straight.",
-    "digits": "6524"
-  },
-  {
-    "title": "Double-Booked",
-    "author": "XeonRisq",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRemote sums: A digit N in a cage points at one of the digits X, that is N cells away vertically or horizontally. The number given in the cage is the sum of N+X.",
-    "digits": "1632"
-  },
-  {
-    "title": "Arrow Sudoku",
-    "author": "Swaroop Guggilam",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "2543"
-  },
-  {
-    "title": "Linesweeper Sudoku",
-    "author": "Phistomefel",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nLine Sweepers: Draw a loop into the grid that only moves orthogonally and doesn't branch or intersect itself. Loop sections may touch each other orthogonally and diagonally.\nA digit in a circle indicates how many of the cells in the surrounding 3x3 area centered on the circle are visited, including the circled cell.",
-    "digits": "6351"
-  },
-  {
-    "title": "Narcisse",
-    "author": "Christounet",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and the values of all cells in the cage sum to the number in the top left.\n\nMirrored digits: There are 6 mirrored digits hidden in the grid, exactly one in every row, column, and box. Every digit appears in a mirrored cell exactly once. For the purpose of killer cages, a digit X in a mirrored cell will have a value of 7-X. For example, the digit 1 would have a value of 6, and vice versa.",
-    "digits": "2546"
-  },
-  {
-    "title": "Region Sum Lines Sudoku",
-    "author": "Florian Wortmann",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same.",
-    "digits": "3152"
-  },
-  {
-    "title": "Tapa Sudoku",
-    "author": "DiMono",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nTapa: Shade some cells so that all shaded cells form one orthogonally connected area and no 2x2 is entirely shaded. \nRed cells cannot be shaded and contain a digit indicating the length of the connected group of shaded cells in its up to 8 surrounding cells.\nIf adjacent cells are either both shaded or both unshaded they may not contain consecutive digits.\n\nShaded sums: Clues outside the grid indicate the sum of digits in shaded cells in its row or column.",
-    "digits": "6524"
-  },
-  {
-    "title": "Little Killer-X Sums-Kropki Pairs Sudoku ",
-    "author": "Akash Doulani ",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nLittle Killer: Numbers outside the grid are the sum of the digits pointed to along the indicated diagonal. Digits are allowed to repeat along those diagonals as normally allowed by the other rules.\n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue.\n\nDuality: All clues are both Little Killer and X-Sums. \n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
-    "digits": "4312"
-  },
-  {
-    "title": "Entropic Whisper Sudoku",
-    "author": "thoughtbyte",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nEntropic Lines: Any three adjacent digits along a peach entropic line are from one each of low(1,2), medium(3,4), and high(5,6) digits. \n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.",
-    "digits": "2456"
-  },
-  {
-    "title": "Chain of Command",
-    "author": "MathGuy_12",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nN-Chains: An N-Chain is a set of N cells in a row or column that index each other in a path to form a closed loop. A pair of colored cages in a row or column indicates that there is an N-Chain of the given length that stays between the cages and includes both cages. For example,  4 in r1c1, 6 in r1c4, and 1 r1c6 form a 3 long N-chain in row 1. Blue cages show N-Chains in rows, and red cages show N-Chains in columns. Not all N-Chains are necessarily given.",
-    "digits": "4631"
-  },
-  {
-    "title": "Spinners",
-    "author": "dorlir",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. If two arrows are attached to the same circle, they each independently sum to the value in the circle. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "2365"
-  },
-  {
-    "title": "Nice Dice",
-    "author": "Angelo",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDice Templates: The colored regions in the grid are dice templates, meaning that if they were folded into a cube, you would have one of each of the digits 1-6 and each pair of opposite sides would sum to 7.",
-    "digits": "5614"
-  },
-  {
-    "title": "Waiting in the Wings",
-    "author": "BremSter",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDiagonal Outside: Orange digits outside the grid must be located within the first three cells seen in the direction pointed to by the arrow.",
-    "digits": "4132"
-  },
-  {
-    "title": "Thread Tap&Die SET",
-    "author": "Clocksmith",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nPalindromes: The digits on a grey line read the same forwards and backwards.",
-    "digits": "2654"
-  },
-  {
-    "title": "All things equal",
-    "author": "Sktx",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nEqualines: Digits along each gold line always sum to the same number, which has to be determined by the solver. ",
-    "digits": "6231"
-  },
-  {
-    "title": "Reflex",
-    "author": "Jobo",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "5614"
-  },
-  {
-    "title": "Equal Sums",
-    "author": "Chris Napolitano",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nEqualines: Digits along each gold line always sum to the same number, which has to be determined by the solver. ",
-    "digits": "2165"
-  },
-  {
-    "title": "Sum Caterpillar Trails",
-    "author": "Rangsk",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal.",
-    "digits": "6524"
-  },
-  {
-    "title": "Positive Chess Thingy",
-    "author": "Korshben",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.\n\nChess Views: Cells marked 'Bx' must see exactly x cells that match their value a chess Bishop's move away. Cells marked 'Knx' must see exactly x cells that match their value a chess Knight's move away. Cells marked 'Kix' must see exactly x cells that match their value a chess King's move away.",
-    "digits": "3412"
-  },
-  {
-    "title": "My Phone Number",
-    "author": "Lake",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nLook-and-Say cages: The number in the top left of the cage is split up into pairs. Each pair should be read as 'there are X Ys in the cage'. So for this puzzle, the cage contains one 5, three 2s, etc. The '?' can represent any digit. ",
-    "digits": "6521"
-  },
-  {
-    "title": "Directional Renban",
-    "author": "Chad",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Snakes: A cell containing an arrow is the start of a snake travelling in the indicated direction. The length of the snake is equal to the digit in the arrow's cell (snakes may be 1 cell long). A snake is a one-cell wide path of orthogonally connected cells that doesn't branch. Snakes may not overlap themselves or other snakes.\nEach snake acts as a renban line, with digits on it forming a set of non-repeating, consecutive digits in any order.",
-    "digits": "1453"
-  },
-  {
-    "title": "Puzzle title",
-    "author": "Logan Wall",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nEntropic Lines: Any three adjacent digits along an entropic line are from one each of low(1,2), medium(3,4), and high(5,6) digits. \n\nBulbless Thermometers: Digits must strictly increase starting from one end of the line.\n\nEntropic-Thermo-Ambiguity: Each line can be either a bulbless thermometer or an entropic line. The solver must deduce which lines are bulbless thermometers and which are entropic lines.",
-    "digits": "3126"
-  },
-  {
-    "title": "Cat or Pillar",
-    "author": "Michael Lefkowitz",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nCat Pillars: The sum of the digits on each pillar is divisible by the digit on the cat standing on top of it. Every cat has a different digit.",
-    "digits": "1452"
-  },
-  {
-    "title": "Cater-pea-lar",
-    "author": "SamuPiano",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSplit Pea Lines: The sum of the digits along each line connecting two circles (the sum does not include the circles) is equal to a two digit number represented by the concatenation of the digits in the circles, in either order. For example, if the circles are 1 and 3 then the line connecting them sums to either 13 or 31 and a valid set of digits along the line would be 346 as 3+4+6=13.\n",
-    "digits": "4163"
-  },
-  {
-    "title": "Nothing Loop",
-    "author": "blackjackfitz",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nKropki Dots:  Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nExtra Region: Within cells with circles, each digit must appear exactly once. \n\nNothing Loop: Draw a 1-cell wide loop that moves orthogonally between the centers of some cells. The loop may touch itself orthogonally and diagonally. \n\nBox borders divide the loop into segments.\n\nA digit in a circle is on the loop and gives the length of its segment.\n\nA digit in a square indicates the number of non-loop cells in the (up to 9) surrounding cells, including itself. \n",
-    "digits": "3254"
-  },
-  {
-    "title": "Hangry",
-    "author": "Nebuzaradan",
-    "rules": "Select exactly 6 digits from 1-9 and place them exactly once in every row, column and 2x3 box.\n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue.\n'a' represents the same number in the whole puzzle, with '2a' being double that number.\n\nFor the 4 digits given to the next grid, treat any digits higher than 6 as the digits missing in the range of 1-6 in numerical order. For example, if the six digits used in the puzzle are 135679, the 7 will be treated as a 2, then the 9 will be treated as a 4 in the next grid. \n\nFor the answer check, this grid should only contain digits in the range 1-6 as explained above.",
-    "digits": "3546"
-  },
-  {
-    "title": "Counting Lines",
-    "author": "Nurator",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nCounting lines: A digit on a line indicates exactly how many cells on that line contain that digit. \n",
-    "digits": "2461"
-  },
-  {
-    "title": "Lines of Descent",
-    "author": "BenceJoful",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDescent Arrows: For each cell that contains an arrow, move N times in the direction of the arrow to arrive at a cell with value N-1, where N is the value of the digit in the cell with the arrow.",
-    "digits": "5316"
-  },
-  {
-    "title": "I'm so hungry, I could eat...",
-    "author": "Pallando",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nParity Sweeper: A digit in a circle indicates how many of the cells in the surrounding 3x3 area centered on the circle have the same parity as the circled digit, including the digit in the circle itself. \n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all these dots are necessarily given.\n\nDiagonal Kropki Dots: Digits separated diagonally by a black dot at a corner have a 1:2 ratio. For example, if row 2 column 3 was a 4 then row 3 column 4 would be a 2. Not all these dots are necessarily given.",
-    "digits": "6425"
-  },
-  {
-    "title": "Arrow Sum Pointers",
-    "author": "Mr.Menace",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nPointing Arrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Additionally, the digit in the circle must appear at least once in the direction pointed at by its arrow, not including the arrow's tip as a valid option. ",
-    "digits": "4312"
-  },
-  {
-    "title": "Mystery Square Cages",
-    "author": "ICHTUES",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nMystery square cages: The digits in each cage sum to a square number (a number that is the result of multiplying an integer number by itself), but no two cages sum to the same square number. Digits in a cage MAY repeat if allowed by other rules.",
-    "digits": "4312"
-  },
-  {
-    "title": "Twelve Spots",
-    "author": "Marty Sears",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nBYO Lines: Draw 6 lines, each with a different turquoise spot at both ends. Lines must visit at least 3 cells including their starting and ending cells. Lines may move orthogonally or diagonally. Lines may not branch, cross each other, share cells, or pass directly through 'no entry' signs.\n\nSame Difference Lines: Each line is a 'same difference' line. Every pair of adjacent cells along a line has the same difference - this is its 'difference value.' Each line has a different 'difference value'.",
-    "digits": "2146"
-  },
-  {
-    "title": "tortie",
-    "author": "jneen",
-    "rules": "Normal 6x6 sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat.\n\nNon-consecutive dots: Digits in cells separated by red dots must be non-consecutive.\n\nDifference dots: Digits separated by a white dot with 2 indicate that the cells have a difference of 2.",
-    "digits": "2416"
-  },
-  {
-    "title": "Squirmeeeeeee",
-    "author": "glum_hippo",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nHigh low lines: Along dark green lines, adjacent digits must alternate between high (4-6) and low (1-3).\n\nSkyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. The 3 above column 3 as well as digits along lines outside the grid indicate the number of skyscrapers seen in that row/column, from the line of sight of the clue. These digits outside the grid are still restricted to values between 1-6.",
-    "digits": "5361"
-  },
-  {
-    "title": "Curled Up",
-    "author": "RSP",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nWrap-around Sequence Lines: Grey lines in the grid are sequence lines. Along each sequence line is a sequence of digits in order with a constant difference, such as 1234 or 642. This constant difference can be negative but does not change sign, so 242 is not a valid sequence line. The constant difference may be 0, so 444 is a valid sequence line. Each line may have a unique constant difference. \n\nHowever, the digits are counted under mod 6, meaning a 7 in sequence is replaced by a 1 instead, and an 8 by a 2 and so on, it wraps around. This makes the sequence 4-5-6-1-2 possible, for example. ",
-    "digits": "1234"
-  },
-  {
-    "title": "Battlefield sudoku",
-    "author": "Ambrose",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nBattlefield: Consider the first X and last Y cells of a row or column, where X is the value of the first and Y the value of the last cell. Clues outside the grid give the sum of the digits where these groups overlap, or the sum of the digits strictly between these groups when they do not overlap.",
-    "digits": "4625"
-  },
-  {
-    "title": "Green and Bear It",
-    "author": "Lumos",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.",
-    "digits": "6312"
-  },
-  {
-    "title": "Arrow Sudoku",
-    "author": "Mitchell Lee",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow.  Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "4251"
-  },
-  {
-    "title": "Elephant",
-    "author": "Xenonetix",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRegion Sum Lines: The blue line are split into segments by box borders. Within each individual line, the sum of the values on each segment is the same.\n\nYin Yang:  Shade some cells such that all shaded cells belong to a single orthogonally connected area and all unshaded cells also belong to a single orthogonally connected area. Additionally, No 2x2 area is entirely shaded or unshaded. Unshaded cells are doubled for the purposes of the region sum line.",
-    "digits": "5142"
-  },
-  {
-    "title": "Instructions from the Outside",
-    "author": "Strosahl",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDescriptive Clues: Words outside the grid indicate the digits in the two closest cells in the indicated row/column belong to the following sets of digits. Big (456), Small (123), Even (246), Odd (135), and Prime (235).",
-    "digits": "6123"
-  },
-  {
-    "title": "Outside the Box",
-    "author": "angel shaaark",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nX-Sums (?): Any number placed outside the grid indicates the sum of the first X values seen, where X is the first seen value. These numbers can see either to the left or downwards.\n\nNote: in the accompanying help document are hints if you should need them.",
-    "digits": "3415"
-  },
-  {
-    "title": "Lepidoptera",
-    "author": "ThePedallingPianist",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nFull Rank Arrows: If the six numbers formed by reading the 2 digits on an arrow in the direction of the arrow were listed in size order, the digit in the arrow's circle represents its ranking within the list from lowest (1) to highest (6). There are no tied ranks. That is, the circled digits contain no repeats and the 2-digit numbers contain no repeats.",
-    "digits": "4263"
-  },
-  {
-    "title": "Whirlpool",
-    "author": "Darth Paradox",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nAverage Arrows: A digit in a circle is equal to the average of the digits on the attached arrow.  Each circle has exactly one attached arrow; the other arrow that intersects each circle travels straight through it without turning and arrows have been colored/varied in thickness for clarification on this front. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "5431"
-  },
-  {
-    "title": "Nameless sudoku",
-    "author": "Dexter Bartholemeow",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRoller Coaster: Draw a non-intersecting loop that travels orthogonally between the centers of some cells in the grid. Clues to the left of rows indicate the sum of digits on horizontal segments of the loop in that row, in the correct order. Clues above columns indicate the sum of digits on vertical segments of the loop in that column, in the correct order. A '?' may replace any value from 0-9, but no clue may have a leading zero.",
-    "digits": "4623"
-  },
-  {
-    "title": "Simple as abcde15",
-    "author": "Memeristor",
-    "rules": "Normal 6x6 sudoku rules apply.\n\nNumbered rooms: Clues outside the grid indicate the digit which has to be placed in the Nth cell in the corresponding direction, where N is the digit placed in the first cell in that direction.\n\nEncrypted: Each instance of the same letter refers to the same digit and each different letter corresponds to a different digit.",
-    "digits": "1326"
-  },
-  {
-    "title": "random puzzle goes brrr",
-    "author": "playmaker6174",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages:  Digits in cages cannot repeat and sum to the value in the top left.",
-    "digits": "6251"
-  },
-  {
-    "title": "Arctic Moth",
-    "author": "Kinnison",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSlow Thermometers: Digits must not decrease along the thermometer starting from the bulb end. ",
-    "digits": "2413"
-  },
-  {
-    "title": "ルックエア に して くれ (Make it Look-Air)",
-    "author": "AkashG23",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nLook-Air:  Shade some cells such that all connected regions of shaded cells form squares. Two squares of the same size may not have a direct view of one another (i.e. have a straight line of unshaded cells in between them) but may be in the same row or column if obstructed by other shaded cells. \nThe digit in a hexagon represents the number of shaded cells in the plus shape that is created by the cell itself and it's 4 orthogonal neighbors. ",
-    "digits": "5632"
-  },
-  {
-    "title": "Not My Vault",
-    "author": "kinoseidon",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nVaults: Digits in a cage may not appear in any cell orthogonally adjacent to the cage. Digits MAY repeat within a cage.\n\nLook-and-Say: The digits xy in the top left of a cage counts the digit y appearing x times. The clue either refers to digits within the cage or digits orthogonally adjacent to the cage.\nFor example, a clue of '24' means that there are either exactly two 4's in the cage, or exactly two 4's orthogonally adjacent to the cage. ",
-    "digits": "6341"
-  },
-  {
-    "title": "Weird, Bad, Spots",
-    "author": "rockratzero",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nLittle Killer: Numbers outside the grid are the sum of the digits pointed to along the indicated diagonal, WITHIN this 6x6. Digits are allowed to repeat along those diagonals as normally allowed by the other rules.\nThe values of the clues abide by the Kropki Dots rules and must be deduced by the solver.",
-    "digits": "3512"
-  },
-  {
-    "title": "Irrswich PLAS",
-    "author": "The Book Wyrm",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nPsycho Look-and-Say Killers: Each digit in a pink cage indexes a cell in the grid. The cell is located in the box with the digit's number, in the same position within the box as the cell containing the digit (counting boxes from left to right and top to bottom). A digit may index its own cell. The cage clue should be read as a look-and-say clue that counts the number of times a digit appears in all the indexed cells.\n\nIrrwisch: Each time the letter A appears, it represent a different value from 1-6.",
-    "digits": "2461"
-  },
-  {
-    "title": "Nurikabe Hybrid",
-    "author": "MaizeGator",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nNurikabe: Shade some cells blue, representing water, such that all water is orthogonally connected, but no 2x2 area is fully covered. Shade all other cells green, forming groups of orthogonally connected cells called islands.\n\nEach island contains exactly one cage clue, and the digit in the cage indicates the size of its island. The number in the top left of a cage gives the sum of all cells on the island. The solver must deduce the shape of the islands. Digits cannot repeat within islands.",
-    "digits": "2635"
-  },
-  {
-    "title": "Caterkiller",
-    "author": "Malrog",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Lines: Along the line, digits are grouped in sections, each containing exactly one small digit clue. The digits in a section cannot repeat, and must sum to the value of the clue.",
-    "digits": "3524"
-  },
-  {
-    "title": "7 Dots",
-    "author": "I Love Sleeping",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nParity Lines: Digits along a red parity line alternate between even and odd.\n\n7 Dots: A digit N in a cell with a dot sums to 7 with one or more digits in the direction of the dot, starting with the Nth digit in that direction. ",
-    "digits": "6154"
-  },
-  {
-    "title": "Raupe Nimmersatt",
-    "author": "Palfly Kampling",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRemote sums: A digit N in a cage points at one of the digits Y, that is N cells away vertically or horizontally. The number given in the cage is the sum of N+Y.\nIn this puzzle remote sums can point exactly one cell outside the grid, making that cell an X-Sums clue.\n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue.",
-    "digits": "1325"
-  },
-  {
-    "title": "Double Arrow Sudoku",
-    "author": "Jakhob and wooferzfg",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDouble Arrows: The sum of the digits in two circles is equal to the sum of the digits on the line connecting them. Digits are allowed to repeat in the circles and on the lines as normally allowed by other rules.",
-    "digits": "5164"
-  },
-  {
-    "title": "Kropkiller Sudoku",
-    "author": "Barbitos",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Cages: The value of a cage is the sum of the digits in it.\nCage values separated by a white dot are consecutive. \nCages values separated by a black dot have a 1:2 ratio.\nAll possible dots between cages are given.",
-    "digits": "2543"
-  },
-  {
-    "title": "Staircase",
-    "author": "isamook",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nQuadruples: Digits in the circles must all appear at least once in the cells touching them.",
-    "digits": "3261"
-  },
-  {
-    "title": "Slitherlink Sudoku",
-    "author": "Gliperal",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSlitherlink: Draw a closed loop along the grid edges that does not branch or touch itself. Cells containing the digits 1-3 indicate the amount of edges of the cell that are used by the loop. A 4 indicates that none of the edges of the cell are used by the loop, and 5 and 6 are ignored for the purpose of Slitherlink.\nHowever, if there is a clue in the top left of the cell, the digit inside the cell is ignored and the top left clue is used instead. A ? can represent any clue from 0-3.",
-    "digits": "6215"
-  },
-  {
-    "title": "Finders Sweepers",
-    "author": "fjam",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nParity Lines: Digits along a parity line alternate between even and odd.\n\nLongest Line Sweepers: A digit in a circle indicates the length of the longest orthogonally connected parity line that can be drawn in the up to 8 surrounding cells (within this 6x6 grid). The length of a line is the number of line segments required to draw it. Therefore, a line entering N cells around a circle has length N-1. For example, a line connecting three cells, drawn with two line segments, has length 2.",
-    "digits": "1462"
-  },
-  {
-    "title": "Region Sum lines Consecutive Pairs",
-    "author": "Ashish Kumar",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
-    "digits": "1326"
-  },
-  {
-    "title": "A single between line",
-    "author": "superrabbit",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nBetween Lines: The digits on a between line must be strictly in-between the digits filled in the circles, excluding the digits in the circles.",
-    "digits": "3465"
-  },
-  {
-    "title": "Caterpiller Split Sum Loop",
-    "author": "Virtual",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRemote sums loop: Draw a loop through the grid that visits each cage and does not touch itself orthogonally, but may touch diagonally. A digit N in a cage points at one of the digits X, that is N cells away along the loop in either direction. The number given in the cage is the sum of N+X.",
-    "digits": "5621"
-  },
-  {
-    "title": "Hexed",
-    "author": "No-Feet McGee",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\n5-Difference German Whispers Lines: Adjacent digits along the green lines must have a difference of at least 5.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal.\n\nPalindromes: The digits on a grey line read the same forwards and backwards. ",
-    "digits": "6534"
-  },
-  {
-    "title": "Junction Depot",
-    "author": "Riffclown",
-    "rules": "Irregular 6x6 Sudoku rules apply. Place the digits 1-6 exactly once in every row, column, and bold-outlined region.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "2641"
-  },
-  {
-    "title": "For Memeristor's Insect Puzzle",
-    "author": "WISTY 'WORD SEACH' FALL",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDouble Indexers: The digit in a shaded cell indicates both the column in which the cell's column number appears in its row and the row in which its row number appears in its column. (i.e. if r4c6 were a 3, there would be a 6 in r4c3 and a 4 in r3c6.)",
-    "digits": "6215"
-  },
-  {
-    "title": "Detour",
-    "author": "grkles",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nLittle Killer: Numbers outside the grid are the sum of the digits pointed to along the indicated diagonal, WITHIN this 6x6 grid. Digits are allowed to repeat along those diagonals as normally allowed by the other rules. ",
-    "digits": "4526"
-  },
-  {
-    "title": "Quadlibet",
-    "author": "Raumplaner",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nQuad sums: A circle at a corner means that one of the four surrounding digits is the sum of the remaining three digits of the corner. Not all dots are necessarily given.\n\nKropki: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
-    "digits": "5631"
-  },
-  {
-    "title": "Shyscrapers",
-    "author": "Lisztes",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nInternal Skyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. Clues indicate the number of skyscrapers that can be seen in that row/column, from the line of sight of the clue.\n\nHOWEVER: the clues are inside of the grid, in the cages as one-digit numbers in pairs. Horizontal cages contain the clues of the given row (the digit on the left is the left side's outside clue, the digit on the right is the right side's outside clue), vertical cages contain the clues of the given column (the top digit is the clue from above the puzzle, the bottom digit is the clue from underneath the puzzle).",
-    "digits": "1243"
-  },
-  {
-    "title": "numbered clues",
-    "author": "Andrewsarchus",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nXV Sums: Digits separated by a V must sum to 5, and digits separated by an X must sum to 10.  Not all X's and V's are necessarily given.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nEven/Odd: Cells containing a grey square are even. Cells containing a grey circle are odd.\n\nNumbered Clues: An X,V, or Kropki dot outside of the grid is placed on the edge of the Nth and (N+1)th cells from the clue, where N is the digit closest to the clue.\n\nAn Even/Odd clue outside of the grid is placed in the Nth cell from the clue where N is the digit closest to the clue.",
-    "digits": "3456"
-  },
-  {
-    "title": "X-Sums Killer Sudoku",
-    "author": "KNT",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nX-Sum Cages: Within cages, digits cannot repeat, including the individual digits placed outside the grid in the cages. For example, if you placed a 12 in an outside clue, you cannot repeat the 1 or 2 in the cage. Digits placed outside the grid in cages become an X-Sum clue. This means the digits outside the grid must be equal to the sum of the first X digits, seen from the direction of clue, where X is the first digit in that row or column. ",
-    "digits": "1362"
-  },
-  {
-    "title": "Renban Sudoku",
-    "author": "Sam Cappleman-Lynes",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Purple lines in the grid are Renban lines. Digits on a line form a set of non-repeating, consecutive digits in any order.",
-    "digits": "5426"
-  },
-  {
-    "title": "Give Me All",
-    "author": "Toir",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nPalindrome: Digits along the grey line read the same forwards and backwards.\n\nPrinting Lines: There are purple lines with circles and arrows attached to them in the grid. The circled digit indicates how many times digits along the line (including the circles and arrows) appear in the cells pointed at by the arrow.\n\nFor example, a line 15(3)2 is valid if the digits it points at are 2; 3; 6; 3, because the 3 appears twice, 2 appears once, and no other digits from the line appear, amounting to 3 times which is the digit in the circle.",
-    "digits": "4563"
-  },
-  {
-    "title": "Black Sheep",
-    "author": "Blobz",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
-    "digits": "3642"
-  },
-  {
-    "title": "Drawers",
-    "author": "Stephane Bura",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDrawers: If a cell contains an arrow, it's called an origin. The cell in the direction of the arrow at a distance equal to the origin's value is called its destination. So a drawer with a 3 in the origin will occupy exactly 3 cells, including the origin and the destination.\n\nFor a given line (row or column) and a given perpendicular direction to this line for the arrows, the destinations are a new arrangement of the origins. This means that they are the same digits, in a different order.\n\nYou can think of the arrows as drawer handles, for drawers of lengths equal to the origins' values. You pull the drawers until the destinations take the place of the origins.",
-    "digits": "6234"
-  },
-  {
-    "title": "Norin",
-    "author": "thetearex15",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nGiven Pencilmarks: Some pencilmarks have been given. These represent all the possible values of that cell.",
-    "digits": "4125"
-  },
-  {
-    "title": "Even/odd and xv",
-    "author": "Casey",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nXV Sums: Digits separated by a V must sum to 5, and digits separated by an X must sum to 10. \n\nEven/Odd: Cells containing a grey square are even. Cells containing a grey circle are odd.",
-    "digits": "6413"
-  },
-  {
-    "title": "Mini Escalator",
-    "author": "Artifex_Amanda",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nThermometers: Digits must strictly increase along the thermometer starting from the bulb end.",
-    "digits": "5241"
-  },
-  {
-    "title": "Skyscrapers",
-    "author": "Bill Murphy",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSkyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. Clues outside the grid indicate the number of skyscrapers that can be seen in that row/column, from the line of sight of the clue.",
-    "digits": "3416"
-  },
-  {
-    "title": "Consecutive Purpl Caterpillars",
-    "author": "Cane_Puzzles",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Purple lines in the grid are Renban lines. Digits on a line form a set of non-repeating, consecutive digits in any order.",
-    "digits": "5463"
-  },
-  {
-    "title": "Cut Across",
-    "author": "Antiknight",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: There are circles in the grid with attached arrows. The digit in the circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.\n\nGreater-than Arrows: There are red arrows as well in the grid. Digits in cells in with a red arrow are larger than all other digits in the cells along the direction of the arrow. ",
-    "digits": "3652"
-  },
-  {
-    "title": "Six Times Tables",
-    "author": "Paws🐾",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nMuliplication Calcudoku: The digits in the cages must multiply to the given totals. Digits CAN repeat if normally allowed by other rules.",
-    "digits": "4352"
-  },
-  {
-    "title": "Geradeweg Sudoku",
-    "author": "Wessel Strijkstra/It's Stark Jr.!",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nGeradeweg: Using orthogonal lines, draw a non-intersecting loop through the centers of some cells that passes through every clued cell. Digits on every straight line segment that touches a clue must have a sum equal to the clue's value. In case of a ?, the value of that clue must be determined. ",
-    "digits": "3621"
-  },
-  {
-    "title": "N-Whispers",
-    "author": "mr.mango (ndsurgenor)",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nN-Whispers: Adjacent digits along the green lines must have a difference of at least N, where N is the number of cells the line passes through.",
-    "digits": "6452"
-  },
-  {
-    "title": "Lightbulb",
-    "author": "Doziam",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nBetween Lines: The digits on a between line must be strictly in-between the digits filled in the circles, excluding the digits in the circles.",
-    "digits": "3621"
-  },
-  {
-    "title": "Renban Arrow Sudoku",
-    "author": "Timberlake",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "4352"
-  },
-  {
-    "title": "1812 Overture",
-    "author": "starwarigami",
-    "rules": "Place the digits 0-6 exactly once in every row, column, and box.\nTo achieve this, each row, column, and box contains one 'Schrödinger cell' that contains 2 digits.\nThe shaded cells which are shared with other grids must not be s-cells or contain 0.\n\nKiller Cages: Digits in cages cannot repeat and sum to either 12 or 18.",
-    "digits": "3524"
-  },
-  {
-    "title": "Pencilmark Sudoku",
-    "author": "jojo81",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nGiven Pencilmarks: Some pencilmarks have been given. These represent all the possible values of that cell.",
-    "digits": "2465"
-  },
-  {
-    "title": "Green Stripes",
-    "author": "Emphyrio",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nShift Lines: Teal lines in the grid are shift lines. Each cell along one half of the line is paired with the cell at same distance from the center on the other side of the line. On one half of the line, each digit is exactly one more than the digit in the paired cell on the other half of the line. \nFor instance a 4 cell long shift line could have digits 1-3-4-2 or 5-3-2-4, but not 5-3-2-6 (3 is one more than 2 but 5 isn't one more than 6).",
-    "digits": "2315"
-  },
-  {
-    "title": "Optimize",
-    "author": "DadJokes",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDouble Arrows: The sum of the digits in two circles is equal to the sum of the digits on the line connecting them. Digits are allowed to repeat in the circles and on the lines as normally allowed by other rules.",
-    "digits": "6234"
-  },
-  {
-    "title": "International Travel",
-    "author": "99%Sneaky",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nBorder Sum Circles: Split the digits around a white circle into 2 groups of 2 along a thick box border. These two groups must have the same sum as each other, and each of the circles must have a different sum from the other circles. On the circle on the intersection of 4 boxes both vertical and horizontal pairs must be satisfied.\n\nAnti-Border Sum Circles: Split the digits around a grey circle into 2 groups of 2 along a thick box border. These two groups must have a different sum from each other. Both horizontal and vertical pairs must be satisfied.",
-    "digits": "4156"
-  },
-  {
-    "title": "Sequence Lines Sudoku",
-    "author": "Awesomesauce",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSequence lines: Along a line all pairs of adjacent digits must have the same difference in the same direction, whether that is strictly increasing, decreasing, or staying the same.",
-    "digits": "3412"
-  },
-  {
-    "title": "Butterfly Hunt",
-    "author": "Qodec",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nTreasure hunt: A digit in a pink cell tells you how many of the 8 surrounding cells contain digits that are higher than the digit in the pink cell itself. Not all pink cells are necessarily given.",
-    "digits": "6521"
-  },
-  {
-    "title": "Incomparable",
-    "author": "filuta",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nTwo orderings: Each digit is assigned a distinct letter from A-F. This gives the digits two possible orderings: numerical and alphabetical. You can note which letter is which digit in the cells underneath the grid.\n\nThermometers: Values must strictly increase along the thermometer starting from the bulb end, numerically or alphabetically.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive values (numerically or alphabetically) in any order.",
-    "digits": "5146"
-  },
-  {
-    "title": "German Whispers Palindrome Sudoku",
-    "author": "Lizzy01",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.\n\nPalindromes: The digits on a grey line read the same forwards and backwards.",
-    "digits": "2653"
-  },
-  {
-    "title": "Jail",
-    "author": "Memeristor's Fiancée",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.",
-    "digits": "2136"
-  },
-  {
-    "title": "Doing Rounds",
-    "author": "Clarke",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nArrow Loop: Draw a loop for Clarke to travel along counterclockwise, that starts and ends in his favorite spot, indicated by the cat. Clarke's loop must visit all the mint and lettuce.\nAs he goes, Clarke sniffs his surroundings, so his loop doesn't  intersects/crosses or touch itself orthogonally, but his loop may occasionally touch itself diagonally.\nWhen Clarke first enters a row or column containing lettuce, he must travel directly to the cell containing lettuce and nom nom on it. The only lettuce in the grid is in row 2 column 3.\nWhen leaving a mint cell, Clarke rolls on his back and therefore must travel along a diagonal in any direction. In all other cases, his loop travels orthogonally.\n\nClarke's path consists entirely of arrows, starting with an arrow's circle, and then the digit(s) along the arrow (following the path counterclockwise as specified above). When an arrow ends, the next cell on the path becomes the next arrow's circle. All arrow circles consist of a single cell. His favorite spot is the first arrow's circle and not included on the last arrow at all. \n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "6514"
-  },
-  {
-    "title": "String is the best part",
-    "author": "Benny",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nString Toys: These are Benny's string toys! For all the toys, the digit in toy's cell is the number of digits along the attached string that are higher than the digit in the toy's cell.",
-    "digits": "4352"
-  },
-  {
-    "title": "White Space",
-    "author": "Fuxia",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nArrow Sums: A digit in a cell with arrows is the sum of all adjacent cells in the directions of the arrows. For example, if R2C5 is a 5, then R3C4 could be a 2 and R3C6 a 3.\n\nThe D in the bottom left is for the next puzzle, please ignore this for now.",
-    "digits": "3516"
-  },
-  {
-    "title": "Double Ambiguity",
-    "author": "Sayori",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDoublers: There are six doublers, one in each row, column, and box. For the purposes of the clues, doublers double the value of a cell. Each digit from 1-6 is doubled exactly once. One of these doublers is given by the D in box 2. These doublers apply only to this grid.\n\nThermometers: Digits must strictly increase along the thermometer starting from the bulb end.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. If two arrows are attached to the same circle, they each independently sum to the value in the circle. Digits are allowed to repeat along the arrows as normally allowed by other rules.\n\nThermo-Arrow-Ambiguity: Grey lines with a bulb are either arrows or thermometers. Solvers must determine the line type for each line. Multiple lines coming out of the same bulb may be of different types. ",
-    "digits": "2461"
-  },
-  {
-    "title": "Parity Party Sudoku",
-    "author": "Édouard Lebeau aka SudoKanard",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nParity Party: Numbers outside the grid show the sum up to and including the first even digit or up to and including the first odd digit. The sum can be made up by a single digit.",
-    "digits": "1425"
-  },
-  {
-    "title": "Extra Region Skyscraper",
-    "author": "MavericksJD",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nExtra Region: Within green shaded cells, each digit must appear exactly once. \n\nSkyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. Clues outside the grid indicate the number of skyscrapers seen in that row/column, from the line of sight of the clue.",
-    "digits": "2614"
-  },
-  {
-    "title": "Matreshka Gusenitsa",
-    "author": "Lucian",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRussian Doll Sums: Outside clues indicate that there are two digits which sum to the clue and that the digit(s) between them also sum to the clue. For example, a 5 clue could be fulfilled, for instance, by 1234 or 154.",
-    "digits": "6534"
-  },
-  {
-    "title": "Stitched together",
-    "author": "cornishjohn",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.\n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
-    "digits": "2641"
-  },
-  {
-    "title": "Tetromino Thingy",
-    "author": "Myxo",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSame Sum Tetrominoes: Divide the grid fully into tetrominoes (ie. orthogonally connected areas of size 4). No two tetrominoes of the same shape may touch each other orthogonally, including rotations and reflections. Some tetromino borders have already been given.\nDigits cannot repeat within a tetromino and the digits in each tetromino must sum to the same total.\n\nEven: Cells containing a grey square are even.",
-    "digits": "3562"
-  },
-  {
-    "title": "Counting Turns",
-    "author": "jubale",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Dots: Digits separated by a white dot are consecutive.\n\nMintonette Paths: Draw paths through the centers of some cells, connecting each large circle to exactly one other. Paths may not cross each other, themselves or the Kropki dots. Digits in circles represent the number of turns in their connected path.",
-    "digits": "2314"
-  },
-  {
-    "title": "Parity Arrows",
-    "author": "mnasti2",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nParity Arrows: A digit in a circle is equal to the sum of either only the even digits or only the odd digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "3645"
-  },
-  {
-    "title": "Cater-cave Kropki Loop",
-    "author": "yttrio",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nCave Kropki Loop: Draw a one-cell-wide loop of orthogonally connected cells. The loop may not touch itself, not even diagonally.\n\nAdjacent digits along the loop must either be consecutive or have a 2:1 ratio.\n\nDigits in circles are on the loop and give the total number of loop cells (including itself) seen in all horizontal/vertical directions combined.  Non-loop cells block the vision.\n\nDigits in squares are NOT on the loop and give the total number of NON-loop cells (including itself) seen in all horizontal/vertical directions combined.  Loop cells block the vision.",
-    "digits": "6241"
-  },
-  {
-    "title": "Killer Sudoku",
-    "author": "Sotek",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.",
-    "digits": "4325"
-  },
-  {
-    "title": "Domino Effect",
-    "author": "3good5you",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDomino Sum Lines: Split each line fully into pairs of adjacent digits. Every pair has the same sum. Different lines may have different sums. \n\nInequality: The inequality symbol points to the smaller digit.",
-    "digits": "6135"
-  },
-  {
-    "title": "6x6 Full Rank X-Sums",
-    "author": "jonn",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nFull Rank: Each row represents two 6-digit numbers, one number reading left-to-right and the other number right-to-left, the same is true for each column (top-to-bottom and bottom-to-top), that gives 24 numbers in total. For example, if row 6 was 123456, this would represent the numbers, reading left-to-right, one hundred twenty-three thousand, four hundred fifty-six and, reading right-to-left, six hundred fifty-four thousand, three hundred twenty-one. Clues outside the grid indicate the numerical 'rank' of the 6-digit number in that row or column from that direction, with 1 being the lowest and 24 being the highest.\n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue.\n\nFull-Rank-X-Sums Duality: Clues outside the grid are both full rank and x-sums clues. All clues adhere to both of the specified rules above. ",
-    "digits": "4612"
-  },
-  {
-    "title": "Corners and Kropki",
-    "author": "KingOfArrows",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow.  \n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
-    "digits": "6351"
-  },
-  {
-    "title": "Oh no, my circles!",
-    "author": "dumediat",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nCoordinate Arrows: Digits on an arrow spell out the coordinates for the digit that is their sum. The row number is written on the tail of the arrow, and the column number is written on the arrow tip. For example, if an arrow looks like this: -1 4>, then there must be a 5 (1+4) in r1c4. \n\nEach arrow must correspond to a different coordinate. \n\nDigits are allowed to repeat along the arrows as normally allowed by other rules. \n",
-    "digits": "1432"
-  },
-  {
-    "title": "Wriggle Wroom",
-    "author": "Chilly",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nMagic Labyrinth Sequence Snake: There is a single, non-branching, 1-cell wide, orthogonally-connected 'snake' in the grid. The snake may not touch itself orthogonally or diagonally.\n\nThe snake contains a potentially repeating sequence of three distinct digits, to be determined by the solver, called the Magic Labyrinth Sequence (MLS). The head of the snake is located below its tail. The MLS must appear in numerically increasing order from head to tail. For example, if the MLS is {2, 4, 6}, the ordered contents of the the snake could be: (head) 2 4 6 2 4 6 (tail).\n\nHowever, Digits not included in the MLS can appear anywhere along the snake. So the ML sequence doesn't need to start or end exactly at the head or tail. For example, another valid snake, using the same MLS of {2, 4, 6}, could be: (head) 5 3 2 4 6 5 1 2 5 1 4 1 6 1 (tail).\n\nNon-consecutive dots: Digits in cells separated by red dots must be non-consecutive. Additionally, the snake must visit exactly one of the cells separated by red dots.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order. Additionally, the snake visits exactly one of every two adjacent cells along the line.",
-    "digits": "6351"
-  },
-  {
-    "title": "Even It Up",
-    "author": "sujoyku",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nQuadruples: Digits in the circles must all appear at least once in the cells touching them.\n\nEven count: Digits in the circles also indicate how many even digits those four surrounding cells contain. \n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. If two arrows are attached to the same circle, they each independently sum to the value in the circle. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "5214"
-  },
-  {
-    "title": "Multitasking",
-    "author": "Cris Moore",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue.\n\nSandwich Sums: Digits outside the grid indicate the sum of the digits that are placed in-between the 1 and 6 in that row or column.\n\nLittle Killer: Numbers outside the grid are the sum of the digits pointed to along the indicated diagonal. Digits are allowed to repeat along those diagonals as normally allowed by the other rules.\n\nX-sum, Sandwich, Little Killer Duality: The clues with value 'a' outside the grid are equal to the same integer number. Both clues are X-sums and sandwich sums within the row and little killers along both indicated diagonal.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
-    "digits": "4125"
-  },
-  {
-    "title": "Sudokupillar",
-    "author": "Jay Dyer",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal.",
-    "digits": "1536"
-  },
-  {
-    "title": "Parasite",
-    "author": "AnalyticalNinja",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Line: Adjacent digits along the grey line must either be consecutive or have a 1:2 ratio.",
-    "digits": "4352"
-  },
-  {
-    "title": "Gravitational Lensing",
-    "author": "heliopolix",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nBlack Holes: Place six black holes, one in each row, column, and box. Digits may not repeat on black holes.  For the purposes of the clues in this grid, black holes have a value of zero. \n\nWhite Holes (Doublers): Place six white holes, one in each row, column, and box. Digits may not repeat on white holes. For the purposes of the clues in this grid, white holes double the value of a cell.  \nWhite holes and black holes never share the same cell.\n\nKiller Cages: Digits in cages cannot repeat (though values can). Values within a cage sum to the clue in the top left. A killer cage must contain an equal number of black and white holes, but that number may be zero.\n\nTeleporting Little Killer: The clue outside the grid with an arrow is a teleporting little killer. It indicates that the sum of digits along a diagonally travelling path starting in the cell pointed at by the arrow is greater than zero. This path only ends when it reaches an edge of the grid. When the path enters a black hole cell it teleports to the white hole cell with the same digit maintaining the direction of travel of the original path and including the value of both holes in its sum. The path must visit the same number of black and white holes, but that number may be zero. \n\nHole Sandwiches: Clues outside the grid without arrows give the sum of the digits between black and white holes in the indicated row or column, not including the values of the black and white holes in the sum.",
-    "digits": "1526"
-  },
-  {
-    "title": "Dutch Six",
-    "author": "rad",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDutch Whispers Lines: Adjacent digits along the orange lines must have a difference of at least 2.\n\nXV Sums: Digits separated by a V must sum to 5.",
-    "digits": "4362"
-  },
-  {
-    "title": "Outies",
-    "author": "RainbowSprinklez",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
-    "digits": "2156"
-  },
-  {
-    "title": "Kvell",
-    "author": "ZegreS",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nThermometers: Digits must strictly increase along the thermometer starting from the bulb end.",
-    "digits": "4521"
-  },
-  {
-    "title": "Sandwich",
-    "author": "RockyRoer",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSandwich Sums: Digits outside the grid indicate the sum of the digits that are placed in-between the 1 and 6 in that row or column.",
-    "digits": "2653"
-  },
-  {
-    "title": "Choco Banana",
-    "author": "Menderbug",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nChoco Banana: Shade some cells such that all groups of shaded cells are rectangular and that all groups of unshaded cells are not rectangular. Adjacent cells of the same shading are in the same group. \n\nCircled digits indicate the size of the group they are in, whether shaded or unshaded. A group may have any number of circled digits.",
-    "digits": "3624"
-  },
-  {
-    "title": "Slow to the Rub",
-    "author": "FuryfulFawful",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSlow Thermometers: Digits must not decrease along the thermometer starting from the bulb end.",
-    "digits": "1562"
-  },
-  {
-    "title": "Primed for some math",
-    "author": "Qinlux",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nTouching Primes: The 4 digits orthogonally touching a cell containing a circle must sum to a prime number. Similarly, the 4 digits diagonally touching a cell containing a circle must sum to a prime number. The 2 primes around a circle don't necessarily have the same value.\n\nSums only include digits entirely within this grid. So for the circle in row 2 column 6 there is 2 diagonal cells, and 3 orthogonal cells summing to a prime each.",
-    "digits": "3451"
-  },
-  {
-    "title": "caterdokupillar pozl",
-    "author": "PulverizingPancake",
-    "rules": "Normal 6x6 sudoku rules apply.\n\nZipper Lines: Lavender lines in the grid are zipper lines. Digits equidistant from the line's center must sum to the same value. If a zipper line has an odd number of cells, the central cell's digit defines this sum. Digits may repeat on these lines if allowed by other sudoku rules. For example, a valid zipper line could be 3146253 which has a sum value of 6.",
-    "digits": "1526"
-  },
-  {
-    "title": "Quiet neighbors",
-    "author": "DreamLibrarian",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
-    "digits": "4352"
-  },
-  {
-    "title": "Caged Consecutives",
-    "author": "Tulrak",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nKiller Cages: Digits in cages cannot repeat.",
-    "digits": "4651"
-  },
-  {
-    "title": "XV-Inequality",
-    "author": "CJK",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nInequality: Inequality symbols point to the smaller digit.\n\nV Sums: Digits separated by a V symbol must sum to 5.\n\nInequality-V-Ambiguity: All clues are either Inequality symbols or V symbols. All V symbols are oriented correctly, that is with their pointy side down. ",
-    "digits": "1563"
-  },
-  {
-    "title": "Xternal Spikes",
-    "author": "gdc",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nArrows:  The value in a circle is equal to the sum of the values on the attached arrow. Values outside the grid on arrows may exceed 6.\n\nX-Sum: Values placed outside the grid on arrows become an X-Sum clue.  That is, the value outside the grid must be equal to the sum of the first X digits, seen from the direction of clue, where X is the first digit in that row or column.",
-    "digits": "5462"
-  },
-  {
-    "title": "Entropic Whisperpillar",
-    "author": "Nell Gwyn",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nEntropic Whispers: Any two digits exactly one or two steps apart along the orange-and-yellow line must differ by at least two. \nIn other words, adjacent digits must differ by at least two and any two digits which share the same adjacent digit must also differ by at least two. ",
-    "digits": "4316"
-  },
-  {
-    "title": "XY Sandwiches",
-    "author": "Scojo",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nXY Sandwiches: Clues outside the grid give the sum of the digits between the Xth and Yth cells in that row or column, where X and Y are the first two cells seen from the direction of the clue.  For example, if the first two digits in the row are 2 and 5 then the digits between the 2nd and 5th cells (so the 3rd and 4th digits) when summed will give the value clued.",
-    "digits": "3521"
-  },
-  {
-    "title": "Candypillar",
-    "author": "Niverio",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nXV Sums: Digits separated by a V must sum to 5, and digits separated by an X must sum to 10.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nXV-Kopki-Ambiguity: There are 3 differently colored dots. The 3 colors represent 3 of the 4 constraints of White Kropki, Black Kropki, V and X clues (explained above). Which colour represents which constraint must be deduced by the solver, including which one is left out.\n\nPalindromes: The digits on a grey line read the same forwards and backwards.",
-    "digits": "6412"
-  },
-  {
-    "title": "Odd-Even Portal Sudoku",
-    "author": "Madmahogany",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nEven/Odd: Cells containing a grey square are even. Cells containing a grey circle are odd.\n\nPortal cells: Red squares are 'portal' cells. If a red cell in row R, column C has a value V, then the cell in row V, column R has a value C, and the cell in row C, column V has a value R. That is, if we represent the red cell as (R,C,V), then (V,R,C) and (C,V,R) also hold in the Sudoku grid. For example, if row 1 column 2 is 5 then row 5 column 1 is 2 and row 2 column 5 is 1.",
-    "digits": "5136"
-  },
-  {
-    "title": "Group Sums Sudoku",
-    "author": "Prasanna Seshadri",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nGroup sums: A number in a circle gives the sum of the digits in its surrounding cells. These digits can repeat if allowed by other rules. ",
-    "digits": "1352"
-  },
-  {
-    "title": "The Whispering Nimmersatt",
-    "author": "BugsCantHide",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.",
-    "digits": "5643"
-  },
-  {
-    "title": "Diagonal Skyscrapers",
-    "author": "punchingcatto",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSkyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. Clues outside the grid indicate the number of skyscrapers seen in the grid along the indicated direction.",
-    "digits": "3254"
-  },
-  {
-    "title": "Indexer Sudoku",
-    "author": "SSGranor",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nDouble Indexers: The digit in a shaded cell indicates both the column in which the cell's column number appears in its row and the row in which its row number appears in its column. (i.e. if r4c6 were a 3, there would be a 6 in r4c3 and a 4 in r3c6.)",
-    "digits": "4163"
-  },
-  {
-    "title": "Caterdokupillar Renban",
-    "author": "Lombax999",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.",
-    "digits": "2516"
-  },
-  {
-    "title": "34 Degree Caterdoku",
-    "author": "Twototenth",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nRow Indexers: Each digit in columns 3 and 4 indicates the position of the 3 and 4 in the same row (that is, if row 1 column 3 is a 5, then row 1 column 5 is a 3). \n\nThermometers: Digits must strictly increase along the thermometer starting from the bulb end. ",
-    "digits": "4351"
-  },
-  {
-    "title": "M for Massive Clones",
-    "author": "Botaku",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nClones: Cages contain exactly the same digits in the same relative positions. Digits are allowed to repeat within the cages as normally allowed by other rules.",
-    "digits": "1624"
-  },
-  {
-    "title": "Aileron",
-    "author": "Teal",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal.",
-    "digits": "3415"
-  },
-  {
-    "title": "Nabner kropki sudoku",
-    "author": "arctan",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nNabner Lines: If a digit appears on a yellow line, then the digits consecutive with it do not appear on the line. Digits cannot repeat on a Nabner line. For example, if a 2 appears on the line, then 1 and 3 do not appear on the line, and another 2 also does not appear.\n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
-    "digits": "1542"
-  },
-  {
-    "title": "Find the Whispers",
-    "author": "randall",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue. With ? representing any valid X-Sum value and >1 representing any X-Sum value greater than 1. This sequence of the first X cells will also be a valid German Whispers line.\n\nGerman Whispers Lines: Adjacent digits along a German Whispers line must have a difference of at least 3. ",
-    "digits": "1643"
-  },
-  {
-    "title": "Crescent Moon",
-    "author": "Walker",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. ",
-    "digits": "6152"
-  },
-  {
-    "title": "German Whispers",
-    "author": "Yoshi Baroshi",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.",
-    "digits": "2634"
-  },
-  {
-    "title": "Sunday stroll",
-    "author": "Jonesy",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.\n\nKiller Path: Draw a path that moves strictly orthogonally, starts in one circle and ends in the other circle. The path may touch itself orthogonally or diagonally, but may not branch or cross itself. The path visit each box at least once.\n\nAll digits on the path inside a box will sum to the same value as the killer cage clue for that box. Multiple visits count toward the same sum.\n\nThe path must always go through at least one cell of the killer cage but can never go through all cells of the cage.\n\nThe path in box 5 is unrestricted by the above rules. \n",
-    "digits": "4152"
-  },
-  {
-    "title": "Irregular Palindrome Kropki",
-    "author": "Charlie Pugh",
-    "rules": "Normal Irregular Sudoku Rules Apply\n\nGrey lines are palindromes and contain the same digits when read from each direction\n\nDigits separated by a white dot must be consecutive\nDigits separated by a black dot must have a ratio of 2:1\nNot all possible digits are necessarily given",
-    "digits": "6423"
-  },
-  {
-    "title": "Caterdokukropki",
-    "author": "myShoggoth",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given. \n",
-    "digits": "5634"
-  },
-  {
-    "title": "Simon Says",
-    "author": "Derektionary",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nLook-and-say Arrows: The digit on the arrow's tip says how many times the digit in the arrow's circle appears along the set of diagonal cells that the arrow points to.",
-    "digits": "4251"
-  },
-  {
-    "title": "Fingers",
-    "author": "Rubenscube",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
-    "digits": "3516"
-  },
-  {
-    "title": "Triangulation",
-    "author": "damasosos92",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nRegion Sum Lines: These lines split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal. \n\nModular Lines: Along these lines any three adjacent digits along a modular line have a distinct remainder when dividing by 3. Digits that share a remainder are (1, 4); (2, 5); (3, 6). Digits may repeat on these lines if allowed by other rules.\n\nRegion-Sum-Lines-Modular Duality: Grey lines are both region sum lines and modular lines. They adhere to the properties above. A line within a single box does not have any implications for region sum line rules.",
-    "digits": "5142"
-  },
-  {
-    "title": "Bait",
-    "author": "zetamath",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
-    "digits": "6534"
-  },
-  {
-    "title": "Memristor's disappointment ",
-    "author": "Donatello_86 ",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages sum to the value in the top left.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3. ",
-    "digits": "4612"
-  },
-  {
-    "title": "Productive",
-    "author": "Oddlyeven",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nProduct-Sum Lines: Digits along a line sum to the product of the digits in the squares at either end of the line. Digits may repeat on a line as normally allowed by the other rules.",
-    "digits": "3465"
-  },
-  {
-    "title": "German Snake",
-    "author": "Oripy",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Snake: Shade some cells to form a non-intersecting path which does not touch itself orthogonally or diagonally. Black circles indicate the start and end of the path. While white circles indicate the cell is a part of the path.\nThe snake forms a German Whispers Line. Adjacent digits along the line must have a difference of at least 3.",
-    "digits": "5341"
-  },
-  {
-    "title": "Parity Party",
-    "author": "Lulero",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nEven/Odd: Cells containing a grey square are even. Cells containing a grey circle are odd.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
-    "digits": "6153"
-  },
-  {
-    "title": "higher-lower",
-    "author": "paletron",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nHigher-lower lines: Along the pink lines, each digit must be strictly greater than or strictly less than all adjacent digits along the line. That is, the line consists of an alternating pattern of higher digit, lower digit, higher digit, lower digit, and so on.",
-    "digits": "2541"
-  },
-  {
-    "title": "Renbank",
-    "author": "Dennis Chen",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.",
-    "digits": "1653"
-  },
-  {
-    "title": "Box Sum Killer",
-    "author": "Scruffamudda",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nUnique Box Sums: Digits within cages sum to cage totals that have to be determined by the solver. Cages within the same box have the same total. Cages in different boxes have different totals. \n",
-    "digits": "4521"
-  },
-  {
-    "title": "Stepping Stones",
-    "author": "Meggen033",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nKiller Cages: Digits in cages sum to the value in the top left.",
-    "digits": "6312"
-  },
-  {
-    "title": "Invisible Sums",
-    "author": "KenGlue",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSum Some Arrows: The sum of all digits behind the arrow's tail is equals the sum of the first N digits pointed at by the arrow's tip, where N must be determined by the solver and may be different for each arrow. \n",
-    "digits": "3541"
-  },
-  {
-    "title": "Arrow Sudoku",
-    "author": "Nityant Agarwal",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
-    "digits": "3412"
-  },
-  {
-    "title": "Health Bar",
-    "author": "Black_Doom",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\n​​Hit Points: Clues outside the grid give the sum of digits that are equal to their distance from the clue. For example, a row of 152436 would have a 11 clue on the left, since 1, 4, and 6 match their positions, and a 5 clue on the right, since only the 5 matches its position from that direction.",
-    "digits": "1534"
-  },
-  {
-    "title": "Pay Attention, residue class!",
-    "author": "Dr Logic",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nMod 3 Cages: The clue in a cage is the sum of digits in that cage modulo 3. In other words, if you divide the sum of the digits in a cage by 3, the remainder will be equal to the cage clue.\n\nModular Lines: Any three adjacent digits along a teal line have a distinct remainder when dividing by 3. Digits that share a remainder are (1, 4); (2, 5); (3, 6). Digits may repeat on these lines if allowed by other rules.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.\n\n\n\n",
-    "digits": "2351"
-  },
-  {
-    "title": "Caterpillarsandthermowich",
-    "author": "PrimeWeasel",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nSandwich Sums: Clues outside the grid indicate the sum of the digits that are placed in-between the 1 and 6 in that row or column. A '?' may replace any value from 0-9, but no clue may have a leading zero.\n\nThermometer Sandwiches: Additionally, in rows/columns with Sandwich clues, the digits 1 and 6 and the digits that are placed in-between them all must be in increasing order when seen from the Sandwich clue. \n",
-    "digits": "3465"
-  },
-  {
-    "title": "Killer Dominos",
-    "author": "Tahg",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages sum to the value in the top left if given.\n\nDominos: No two cages contain the same set of digits.",
-    "digits": "4152"
-  },
-  {
-    "title": "Walkies",
-    "author": "Lola",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nLola loves going for a walk, but where did she go? Draw a non-crossing line in the grid connecting the centres of adjacent cells to form a loop that visits each region exactly once. The line may move diagonally and must pass through each set of pawmarks. Adjacent digits on the line must have a difference of at most 1.",
-    "digits": "2634"
-  },
-  {
-    "title": "Battenburger",
-    "author": "Cura",
-    "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.\n\nBattenburg: Around Battenburg symbols (grey checkered squares on corners) one pair of diagonal digits has to be even, the other one has to be odd.\nNot all Battenburgs are necessarily given.",
-    "digits": "4351"
-  },
-  {
-    "title": "The Rear End",
-    "author": "Panthera",
-    "rules": "Normal 6x6 Sudoku rules apply. \n\nJapanese Sums: the squares outside the grid indicate the order of the runs of contiguous cells that must be shaded the color of the clue. The number in the square indicates the sum of the cells in the run. All shaded runs are given.\n\nColors used in this puzzle are Green, Red, Yellow. For best results, remove all unshaded marking you have done once completed."
-  }
+[{
+        "title": "Face of Eternity",
+        "author": "theasylm",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent. Placez les chiffres 1 à 6 exactement une fois dans chaque ligne, colonne et case 2x3.\n\nSommes japonaises : les cases à l'extérieur de la grille indiquent l'ordre des séries de cellules contiguës qui doivent être colorées de la couleur de l'indice. Le nombre dans la case indique la somme des cellules de la série. Toutes les séries colorées sont indiquées. \n\nLes couleurs utilisées dans ce puzzle sont le vert, le rouge, le noir et le jaune.",
+        "digits": "5623"
+    },
+    {
+        "title": "Aperitif",
+        "author": "Tallcat",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nLignes Renban : Les chiffres sur une ligne violette forment un ensemble de chiffres consécutifs et non répétitifs dans n'importe quel ordre.",
+        "digits": "4513"
+    },
+    {
+        "title": "Wheels",
+        "author": "Alaric Taqi A. (Crusader175)",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n \nRoues : les chiffres dans un cercle gris doivent être placés dans le même ordre circulaire dans les quatre cellules touchées par le cercle. Les cercles peuvent devoir être tournés pour trouver la position correcte de 90°, 180° ou 270°. Les chiffres peuvent se répéter sur les roues comme le permettent normalement les autres règles.",
+        "digits": "3462"
+    },
+    {
+        "title": "Arrow Sudoku",
+        "author": "Agent",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nFlèches : un chiffre dans un cercle est égal à la somme des chiffres sur la flèche attachée. Les chiffres peuvent se répéter le long des flèches comme le permettent normalement d'autres règles.",
+        "digits": "2153"
+    },
+    {
+        "title": "Metamorphosnipe",
+        "author": "Philip Newman",
+        "rules": "Selectionnez exactement 6 chiffres de 1 à 9 et placez-les exactement une fois dans chaque ligne, colonne et boîte 2x3.\n\nFlèche multiplicative : le produit des chiffres le long d'une flèche est égal au nombre dans son cercle ou sa pilule connectée. Les chiffres dans les pilules forment des nombres à deux chiffres qui se lisent de gauche à droite ou de haut en bas. Les chiffres peuvent se répéter le long des flèches comme le permettent normalement les autres règles.",
+        "digits": "1432"
+    },
+    {
+        "title": "Moon-Sun Caterdokupillar ",
+        "author": "Math Pesto",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nDessinez une boucle orthogonale sans branches et sans intersections qui visite chaque région exactement une fois. Dans chaque région, la boucle passe soit par toutes les lunes et aucun soleil, soit par tous les soleils et aucun lunes. La boucle ne peut pas passer par le même type d'indice dans deux régions utilisées consécutivement. La boucle agit comme une ligne German Whispers\n\nLigne German Whispers : les chiffres adjacents le long de ces lignes doivent avoir une différence d'au moins 3.",
+        "digits": "5346"
+    },
+    {
+        "title": "Double or Nothin'",
+        "author": "Kennet's Dad",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent. \n\nLignes Garden Path : les lignes bleues sont divisées en segments par des bordures de boîte. Pour chaque ligne, la somme d'un segment sera le double de la somme de l'autre segment.",
+        "digits": "4615"
+    },
+    {
+        "title": "Caterdokupillar X-Cages",
+        "author": "kuraban",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent. \n\nBYO Killer : dessinez des cages Killer dans la grille de sorte que chaque cage contienne exactement une cellule avec indice et que les cages ne se chevauchent pas. La cellule avec indice doit se retrouver dans la cellule la plus à gauche de la rangée supérieure de la cage et le chiffre dans le cercle indique le nombre de cellules que contient la cage dans laquelle elle se trouve. Les chiffres dans les cages Kiler ne peuvent pas se répéter et leur somme doit correspondre à la valeur en haut à gauche de la cellule indiquée.",
+        "digits": "1536"
+    },
+    {
+        "title": "Signal Processing",
+        "author": "FullDeck and Missing a Few Cards",
+        "rules": "Les règles normales du Sudoku 6x6 s'appliquent.\n\nPalindromes : les chiffres sur une ligne grise se lisent de la même manière à l'endroit et à l'envers.\n\nQuadruples : les chiffres dans les cercles doivent tous apparaître au moins une fois dans le cellules qui les touchent.",
+        "digits": "3156"
+    },
+    {
+        "title": "Renban Sudoku",
+        "author": "the_cogito",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nThe circles in the top left are for the next puzzle, ignore them for now.",
+        "digits": "1425"
+    },
+    {
+        "title": "Sandwich Sudoku",
+        "author": "clover!",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSandwich Sums: Circled digits outside this 6x6 grid indicate the sum of the digits that are placed in-between the 1 and 6 in that row or column. This includes circled digits in the previous grid. ",
+        "digits": "5361"
+    },
+    {
+        "title": "Cave Sudoku",
+        "author": "Piatato",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nCave: Shade some cells to form a cave, in such a way that all unshaded cells are orthogonally connected and all shaded cells are orthogonally connected by other shaded cells to an edge of the grid. Cells that contain a star must be unshaded, and a digit placed in such a cell indicates the total number of cells seen in all four orthogonal directions, including itself, where shaded cells obstruct vision.",
+        "digits": "2415"
+    },
+    {
+        "title": "The Sky's the Limit",
+        "author": "JMoat13",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nCounting Circles: A digit in a circle indicates exactly how many circles contain that digit.\nDigits in circles outside of the grid are Skyscraper clues.\n\nSkyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. Clues outside the grid indicate the number of skyscrapers seen in that row/column, from the line of sight of the clue. ",
+        "digits": "4163"
+    },
+    {
+        "title": "Every Cage a Unique Fibonacci",
+        "author": "TwoHoleStraw",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nFibonacci Cages: Digits in cages cannot repeat and sum to a Fibonacci number (1, 2, 3, 5, 8, 13, 21). Each cage must sum to a different value.",
+        "digits": "6524"
+    },
+    {
+        "title": "Sum or Product",
+        "author": "James Sinclair",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSum or Product Cages: Digits in cages cannot repeat and either sum or multiply to the value in the top left (or possibly both).",
+        "digits": "2463"
+    },
+    {
+        "title": "Blueberry Crunch",
+        "author": "Tyrgannus",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nPrime-Composite Dots: Digits separated by either shape must sum to 7 or less.\nDigits separated by a circle sum to a prime number.\nDigits separated by a square sum to a composite (non-prime) number.",
+        "digits": "1364"
+    },
+    {
+        "title": "Grammar Nazi",
+        "author": "Chameleon",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Count Cages: A digit next to a white dot in the top left of a cage indicates exactly how many white Kropki dots can be placed in the cage, and a digit next to a black dot in the top left of a cage indicates exactly how many black Kropki dots can be placed in the cage, if given.\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio.\nIn this puzzle a 1 adjacent to a 2 counts as both a black and a white dot.\nDigits are allowed to repeat in cages as normally allowed by other rules.\n\nFor instance, a '2⬤ 0◯' clue will indicate that there are exactly 2 black dots and 0 white dots in the cage, and a '1◯' clue will indicate that there's 1 white dot and any amount of black dots.",
+        "digits": "5126"
+    },
+    {
+        "title": "Counting Spring Rolls",
+        "author": "Gene",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nCounting Circles: A digit in a circle indicates exactly how many circles contain that digit.\nDigits in circles outside of the grid are Spring Roll clues.\n\nSpring Rolls: Within the first four cells from the direction of the clue, find the highest and the lowest digit. The clue outside the grid indicates the sum of the digits that are placed in-between those two cells.",
+        "digits": "1342"
+    },
+    {
+        "title": "Hint of Providence",
+        "author": "Mormagli ",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nEntropic Lines:  Any three adjacent digits along a peach entropic line are from one each of low(1,2), medium(3,4), and high(5,6) digits. \n\nGerman Whispers Lines: Adjacent digits along the green line must have a difference of at least 3. Crossing lines do not connect and all lines are straight.",
+        "digits": "6524"
+    },
+    {
+        "title": "Double-Booked",
+        "author": "XeonRisq",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRemote sums: A digit N in a cage points at one of the digits X, that is N cells away vertically or horizontally. The number given in the cage is the sum of N+X.",
+        "digits": "1632"
+    },
+    {
+        "title": "Arrow Sudoku",
+        "author": "Swaroop Guggilam",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "digits": "2543"
+    },
+    {
+        "title": "Linesweeper Sudoku",
+        "author": "Phistomefel",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nLine Sweepers: Draw a loop into the grid that only moves orthogonally and doesn't branch or intersect itself. Loop sections may touch each other orthogonally and diagonally.\nA digit in a circle indicates how many of the cells in the surrounding 3x3 area centered on the circle are visited, including the circled cell.",
+        "digits": "6351"
+    },
+    {
+        "title": "Narcisse",
+        "author": "Christounet",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and the values of all cells in the cage sum to the number in the top left.\n\nMirrored digits: There are 6 mirrored digits hidden in the grid, exactly one in every row, column, and box. Every digit appears in a mirrored cell exactly once. For the purpose of killer cages, a digit X in a mirrored cell will have a value of 7-X. For example, the digit 1 would have a value of 6, and vice versa.",
+        "digits": "2546"
+    },
+    {
+        "title": "Region Sum Lines Sudoku",
+        "author": "Florian Wortmann",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same.",
+        "digits": "3152"
+    },
+    {
+        "title": "Tapa Sudoku",
+        "author": "DiMono",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nTapa: Shade some cells so that all shaded cells form one orthogonally connected area and no 2x2 is entirely shaded. \nRed cells cannot be shaded and contain a digit indicating the length of the connected group of shaded cells in its up to 8 surrounding cells.\nIf adjacent cells are either both shaded or both unshaded they may not contain consecutive digits.\n\nShaded sums: Clues outside the grid indicate the sum of digits in shaded cells in its row or column.",
+        "digits": "6524"
+    },
+    {
+        "title": "Little Killer-X Sums-Kropki Pairs Sudoku ",
+        "author": "Akash Doulani ",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nLittle Killer: Numbers outside the grid are the sum of the digits pointed to along the indicated diagonal. Digits are allowed to repeat along those diagonals as normally allowed by the other rules.\n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue.\n\nDuality: All clues are both Little Killer and X-Sums. \n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
+        "digits": "4312"
+    },
+    {
+        "title": "Entropic Whisper Sudoku",
+        "author": "thoughtbyte",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nEntropic Lines: Any three adjacent digits along a peach entropic line are from one each of low(1,2), medium(3,4), and high(5,6) digits. \n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.",
+        "digits": "2456"
+    },
+    {
+        "title": "Chain of Command",
+        "author": "MathGuy_12",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nN-Chains: An N-Chain is a set of N cells in a row or column that index each other in a path to form a closed loop. A pair of colored cages in a row or column indicates that there is an N-Chain of the given length that stays between the cages and includes both cages. For example,  4 in r1c1, 6 in r1c4, and 1 r1c6 form a 3 long N-chain in row 1. Blue cages show N-Chains in rows, and red cages show N-Chains in columns. Not all N-Chains are necessarily given.",
+        "digits": "4631"
+    },
+    {
+        "title": "Spinners",
+        "author": "dorlir",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. If two arrows are attached to the same circle, they each independently sum to the value in the circle. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "digits": "2365"
+    },
+    {
+        "title": "Nice Dice",
+        "author": "Angelo",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDice Templates: The colored regions in the grid are dice templates, meaning that if they were folded into a cube, you would have one of each of the digits 1-6 and each pair of opposite sides would sum to 7.",
+        "digits": "5614"
+    },
+    {
+        "title": "Waiting in the Wings",
+        "author": "BremSter",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDiagonal Outside: Orange digits outside the grid must be located within the first three cells seen in the direction pointed to by the arrow.",
+        "digits": "4132"
+    },
+    {
+        "title": "Thread Tap&Die SET",
+        "author": "Clocksmith",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nPalindromes: The digits on a grey line read the same forwards and backwards.",
+        "digits": "2654"
+    },
+    {
+        "title": "All things equal",
+        "author": "Sktx",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nEqualines: Digits along each gold line always sum to the same number, which has to be determined by the solver. ",
+        "digits": "6231"
+    },
+    {
+        "title": "Reflex",
+        "author": "Jobo",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "digits": "5614"
+    },
+    {
+        "title": "Equal Sums",
+        "author": "Chris Napolitano",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nEqualines: Digits along each gold line always sum to the same number, which has to be determined by the solver. ",
+        "digits": "2165"
+    },
+    {
+        "title": "Sum Caterpillar Trails",
+        "author": "Rangsk",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal.",
+        "digits": "6524"
+    },
+    {
+        "title": "Positive Chess Thingy",
+        "author": "Korshben",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.\n\nChess Views: Cells marked 'Bx' must see exactly x cells that match their value a chess Bishop's move away. Cells marked 'Knx' must see exactly x cells that match their value a chess Knight's move away. Cells marked 'Kix' must see exactly x cells that match their value a chess King's move away.",
+        "digits": "3412"
+    },
+    {
+        "title": "My Phone Number",
+        "author": "Lake",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nLook-and-Say cages: The number in the top left of the cage is split up into pairs. Each pair should be read as 'there are X Ys in the cage'. So for this puzzle, the cage contains one 5, three 2s, etc. The '?' can represent any digit. ",
+        "digits": "6521"
+    },
+    {
+        "title": "Directional Renban",
+        "author": "Chad",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Snakes: A cell containing an arrow is the start of a snake travelling in the indicated direction. The length of the snake is equal to the digit in the arrow's cell (snakes may be 1 cell long). A snake is a one-cell wide path of orthogonally connected cells that doesn't branch. Snakes may not overlap themselves or other snakes.\nEach snake acts as a renban line, with digits on it forming a set of non-repeating, consecutive digits in any order.",
+        "digits": "1453"
+    },
+    {
+        "title": "Puzzle title",
+        "author": "Logan Wall",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nEntropic Lines: Any three adjacent digits along an entropic line are from one each of low(1,2), medium(3,4), and high(5,6) digits. \n\nBulbless Thermometers: Digits must strictly increase starting from one end of the line.\n\nEntropic-Thermo-Ambiguity: Each line can be either a bulbless thermometer or an entropic line. The solver must deduce which lines are bulbless thermometers and which are entropic lines.",
+        "digits": "3126"
+    },
+    {
+        "title": "Cat or Pillar",
+        "author": "Michael Lefkowitz",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nCat Pillars: The sum of the digits on each pillar is divisible by the digit on the cat standing on top of it. Every cat has a different digit.",
+        "digits": "1452"
+    },
+    {
+        "title": "Cater-pea-lar",
+        "author": "SamuPiano",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSplit Pea Lines: The sum of the digits along each line connecting two circles (the sum does not include the circles) is equal to a two digit number represented by the concatenation of the digits in the circles, in either order. For example, if the circles are 1 and 3 then the line connecting them sums to either 13 or 31 and a valid set of digits along the line would be 346 as 3+4+6=13.\n",
+        "digits": "4163"
+    },
+    {
+        "title": "Nothing Loop",
+        "author": "blackjackfitz",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nKropki Dots:  Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nExtra Region: Within cells with circles, each digit must appear exactly once. \n\nNothing Loop: Draw a 1-cell wide loop that moves orthogonally between the centers of some cells. The loop may touch itself orthogonally and diagonally. \n\nBox borders divide the loop into segments.\n\nA digit in a circle is on the loop and gives the length of its segment.\n\nA digit in a square indicates the number of non-loop cells in the (up to 9) surrounding cells, including itself. \n",
+        "digits": "3254"
+    },
+    {
+        "title": "Hangry",
+        "author": "Nebuzaradan",
+        "rules": "Select exactly 6 digits from 1-9 and place them exactly once in every row, column and 2x3 box.\n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue.\n'a' represents the same number in the whole puzzle, with '2a' being double that number.\n\nFor the 4 digits given to the next grid, treat any digits higher than 6 as the digits missing in the range of 1-6 in numerical order. For example, if the six digits used in the puzzle are 135679, the 7 will be treated as a 2, then the 9 will be treated as a 4 in the next grid. \n\nFor the answer check, this grid should only contain digits in the range 1-6 as explained above.",
+        "digits": "3546"
+    },
+    {
+        "title": "Counting Lines",
+        "author": "Nurator",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nCounting lines: A digit on a line indicates exactly how many cells on that line contain that digit. \n",
+        "digits": "2461"
+    },
+    {
+        "title": "Lines of Descent",
+        "author": "BenceJoful",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDescent Arrows: For each cell that contains an arrow, move N times in the direction of the arrow to arrive at a cell with value N-1, where N is the value of the digit in the cell with the arrow.",
+        "digits": "5316"
+    },
+    {
+        "title": "I'm so hungry, I could eat...",
+        "author": "Pallando",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nParity Sweeper: A digit in a circle indicates how many of the cells in the surrounding 3x3 area centered on the circle have the same parity as the circled digit, including the digit in the circle itself. \n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all these dots are necessarily given.\n\nDiagonal Kropki Dots: Digits separated diagonally by a black dot at a corner have a 1:2 ratio. For example, if row 2 column 3 was a 4 then row 3 column 4 would be a 2. Not all these dots are necessarily given.",
+        "digits": "6425"
+    },
+    {
+        "title": "Arrow Sum Pointers",
+        "author": "Mr.Menace",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nPointing Arrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Additionally, the digit in the circle must appear at least once in the direction pointed at by its arrow, not including the arrow's tip as a valid option. ",
+        "digits": "4312"
+    },
+    {
+        "title": "Mystery Square Cages",
+        "author": "ICHTUES",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nMystery square cages: The digits in each cage sum to a square number (a number that is the result of multiplying an integer number by itself), but no two cages sum to the same square number. Digits in a cage MAY repeat if allowed by other rules.",
+        "digits": "4312"
+    },
+    {
+        "title": "Twelve Spots",
+        "author": "Marty Sears",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nBYO Lines: Draw 6 lines, each with a different turquoise spot at both ends. Lines must visit at least 3 cells including their starting and ending cells. Lines may move orthogonally or diagonally. Lines may not branch, cross each other, share cells, or pass directly through 'no entry' signs.\n\nSame Difference Lines: Each line is a 'same difference' line. Every pair of adjacent cells along a line has the same difference - this is its 'difference value.' Each line has a different 'difference value'.",
+        "digits": "2146"
+    },
+    {
+        "title": "tortie",
+        "author": "jneen",
+        "rules": "Normal 6x6 sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat.\n\nNon-consecutive dots: Digits in cells separated by red dots must be non-consecutive.\n\nDifference dots: Digits separated by a white dot with 2 indicate that the cells have a difference of 2.",
+        "digits": "2416"
+    },
+    {
+        "title": "Squirmeeeeeee",
+        "author": "glum_hippo",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nHigh low lines: Along dark green lines, adjacent digits must alternate between high (4-6) and low (1-3).\n\nSkyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. The 3 above column 3 as well as digits along lines outside the grid indicate the number of skyscrapers seen in that row/column, from the line of sight of the clue. These digits outside the grid are still restricted to values between 1-6.",
+        "digits": "5361"
+    },
+    {
+        "title": "Curled Up",
+        "author": "RSP",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nWrap-around Sequence Lines: Grey lines in the grid are sequence lines. Along each sequence line is a sequence of digits in order with a constant difference, such as 1234 or 642. This constant difference can be negative but does not change sign, so 242 is not a valid sequence line. The constant difference may be 0, so 444 is a valid sequence line. Each line may have a unique constant difference. \n\nHowever, the digits are counted under mod 6, meaning a 7 in sequence is replaced by a 1 instead, and an 8 by a 2 and so on, it wraps around. This makes the sequence 4-5-6-1-2 possible, for example. ",
+        "digits": "1234"
+    },
+    {
+        "title": "Battlefield sudoku",
+        "author": "Ambrose",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nBattlefield: Consider the first X and last Y cells of a row or column, where X is the value of the first and Y the value of the last cell. Clues outside the grid give the sum of the digits where these groups overlap, or the sum of the digits strictly between these groups when they do not overlap.",
+        "digits": "4625"
+    },
+    {
+        "title": "Green and Bear It",
+        "author": "Lumos",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.",
+        "digits": "6312"
+    },
+    {
+        "title": "Arrow Sudoku",
+        "author": "Mitchell Lee",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow.  Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "digits": "4251"
+    },
+    {
+        "title": "Elephant",
+        "author": "Xenonetix",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRegion Sum Lines: The blue line are split into segments by box borders. Within each individual line, the sum of the values on each segment is the same.\n\nYin Yang:  Shade some cells such that all shaded cells belong to a single orthogonally connected area and all unshaded cells also belong to a single orthogonally connected area. Additionally, No 2x2 area is entirely shaded or unshaded. Unshaded cells are doubled for the purposes of the region sum line.",
+        "digits": "5142"
+    },
+    {
+        "title": "Instructions from the Outside",
+        "author": "Strosahl",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDescriptive Clues: Words outside the grid indicate the digits in the two closest cells in the indicated row/column belong to the following sets of digits. Big (456), Small (123), Even (246), Odd (135), and Prime (235).",
+        "digits": "6123"
+    },
+    {
+        "title": "Outside the Box",
+        "author": "angel shaaark",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nX-Sums (?): Any number placed outside the grid indicates the sum of the first X values seen, where X is the first seen value. These numbers can see either to the left or downwards.\n\nNote: in the accompanying help document are hints if you should need them.",
+        "digits": "3415"
+    },
+    {
+        "title": "Lepidoptera",
+        "author": "ThePedallingPianist",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nFull Rank Arrows: If the six numbers formed by reading the 2 digits on an arrow in the direction of the arrow were listed in size order, the digit in the arrow's circle represents its ranking within the list from lowest (1) to highest (6). There are no tied ranks. That is, the circled digits contain no repeats and the 2-digit numbers contain no repeats.",
+        "digits": "4263"
+    },
+    {
+        "title": "Whirlpool",
+        "author": "Darth Paradox",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nAverage Arrows: A digit in a circle is equal to the average of the digits on the attached arrow.  Each circle has exactly one attached arrow; the other arrow that intersects each circle travels straight through it without turning and arrows have been colored/varied in thickness for clarification on this front. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "digits": "5431"
+    },
+    {
+        "title": "Nameless sudoku",
+        "author": "Dexter Bartholemeow",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRoller Coaster: Draw a non-intersecting loop that travels orthogonally between the centers of some cells in the grid. Clues to the left of rows indicate the sum of digits on horizontal segments of the loop in that row, in the correct order. Clues above columns indicate the sum of digits on vertical segments of the loop in that column, in the correct order. A '?' may replace any value from 0-9, but no clue may have a leading zero.",
+        "digits": "4623"
+    },
+    {
+        "title": "Simple as abcde15",
+        "author": "Memeristor",
+        "rules": "Normal 6x6 sudoku rules apply.\n\nNumbered rooms: Clues outside the grid indicate the digit which has to be placed in the Nth cell in the corresponding direction, where N is the digit placed in the first cell in that direction.\n\nEncrypted: Each instance of the same letter refers to the same digit and each different letter corresponds to a different digit.",
+        "digits": "1326"
+    },
+    {
+        "title": "random puzzle goes brrr",
+        "author": "playmaker6174",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages:  Digits in cages cannot repeat and sum to the value in the top left.",
+        "digits": "6251"
+    },
+    {
+        "title": "Arctic Moth",
+        "author": "Kinnison",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSlow Thermometers: Digits must not decrease along the thermometer starting from the bulb end. ",
+        "digits": "2413"
+    },
+    {
+        "title": "ルックエア に して くれ (Make it Look-Air)",
+        "author": "AkashG23",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nLook-Air:  Shade some cells such that all connected regions of shaded cells form squares. Two squares of the same size may not have a direct view of one another (i.e. have a straight line of unshaded cells in between them) but may be in the same row or column if obstructed by other shaded cells. \nThe digit in a hexagon represents the number of shaded cells in the plus shape that is created by the cell itself and it's 4 orthogonal neighbors. ",
+        "digits": "5632"
+    },
+    {
+        "title": "Not My Vault",
+        "author": "kinoseidon",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nVaults: Digits in a cage may not appear in any cell orthogonally adjacent to the cage. Digits MAY repeat within a cage.\n\nLook-and-Say: The digits xy in the top left of a cage counts the digit y appearing x times. The clue either refers to digits within the cage or digits orthogonally adjacent to the cage.\nFor example, a clue of '24' means that there are either exactly two 4's in the cage, or exactly two 4's orthogonally adjacent to the cage. ",
+        "digits": "6341"
+    },
+    {
+        "title": "Weird, Bad, Spots",
+        "author": "rockratzero",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nLittle Killer: Numbers outside the grid are the sum of the digits pointed to along the indicated diagonal, WITHIN this 6x6. Digits are allowed to repeat along those diagonals as normally allowed by the other rules.\nThe values of the clues abide by the Kropki Dots rules and must be deduced by the solver.",
+        "digits": "3512"
+    },
+    {
+        "title": "Irrswich PLAS",
+        "author": "The Book Wyrm",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nPsycho Look-and-Say Killers: Each digit in a pink cage indexes a cell in the grid. The cell is located in the box with the digit's number, in the same position within the box as the cell containing the digit (counting boxes from left to right and top to bottom). A digit may index its own cell. The cage clue should be read as a look-and-say clue that counts the number of times a digit appears in all the indexed cells.\n\nIrrwisch: Each time the letter A appears, it represent a different value from 1-6.",
+        "digits": "2461"
+    },
+    {
+        "title": "Nurikabe Hybrid",
+        "author": "MaizeGator",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nNurikabe: Shade some cells blue, representing water, such that all water is orthogonally connected, but no 2x2 area is fully covered. Shade all other cells green, forming groups of orthogonally connected cells called islands.\n\nEach island contains exactly one cage clue, and the digit in the cage indicates the size of its island. The number in the top left of a cage gives the sum of all cells on the island. The solver must deduce the shape of the islands. Digits cannot repeat within islands.",
+        "digits": "2635"
+    },
+    {
+        "title": "Caterkiller",
+        "author": "Malrog",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Lines: Along the line, digits are grouped in sections, each containing exactly one small digit clue. The digits in a section cannot repeat, and must sum to the value of the clue.",
+        "digits": "3524"
+    },
+    {
+        "title": "7 Dots",
+        "author": "I Love Sleeping",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nParity Lines: Digits along a red parity line alternate between even and odd.\n\n7 Dots: A digit N in a cell with a dot sums to 7 with one or more digits in the direction of the dot, starting with the Nth digit in that direction. ",
+        "digits": "6154"
+    },
+    {
+        "title": "Raupe Nimmersatt",
+        "author": "Palfly Kampling",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRemote sums: A digit N in a cage points at one of the digits Y, that is N cells away vertically or horizontally. The number given in the cage is the sum of N+Y.\nIn this puzzle remote sums can point exactly one cell outside the grid, making that cell an X-Sums clue.\n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue.",
+        "digits": "1325"
+    },
+    {
+        "title": "Double Arrow Sudoku",
+        "author": "Jakhob and wooferzfg",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDouble Arrows: The sum of the digits in two circles is equal to the sum of the digits on the line connecting them. Digits are allowed to repeat in the circles and on the lines as normally allowed by other rules.",
+        "digits": "5164"
+    },
+    {
+        "title": "Kropkiller Sudoku",
+        "author": "Barbitos",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Cages: The value of a cage is the sum of the digits in it.\nCage values separated by a white dot are consecutive. \nCages values separated by a black dot have a 1:2 ratio.\nAll possible dots between cages are given.",
+        "digits": "2543"
+    },
+    {
+        "title": "Staircase",
+        "author": "isamook",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nQuadruples: Digits in the circles must all appear at least once in the cells touching them.",
+        "digits": "3261"
+    },
+    {
+        "title": "Slitherlink Sudoku",
+        "author": "Gliperal",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSlitherlink: Draw a closed loop along the grid edges that does not branch or touch itself. Cells containing the digits 1-3 indicate the amount of edges of the cell that are used by the loop. A 4 indicates that none of the edges of the cell are used by the loop, and 5 and 6 are ignored for the purpose of Slitherlink.\nHowever, if there is a clue in the top left of the cell, the digit inside the cell is ignored and the top left clue is used instead. A ? can represent any clue from 0-3.",
+        "digits": "6215"
+    },
+    {
+        "title": "Finders Sweepers",
+        "author": "fjam",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nParity Lines: Digits along a parity line alternate between even and odd.\n\nLongest Line Sweepers: A digit in a circle indicates the length of the longest orthogonally connected parity line that can be drawn in the up to 8 surrounding cells (within this 6x6 grid). The length of a line is the number of line segments required to draw it. Therefore, a line entering N cells around a circle has length N-1. For example, a line connecting three cells, drawn with two line segments, has length 2.",
+        "digits": "1462"
+    },
+    {
+        "title": "Region Sum lines Consecutive Pairs",
+        "author": "Ashish Kumar",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
+        "digits": "1326"
+    },
+    {
+        "title": "A single between line",
+        "author": "superrabbit",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nBetween Lines: The digits on a between line must be strictly in-between the digits filled in the circles, excluding the digits in the circles.",
+        "digits": "3465"
+    },
+    {
+        "title": "Caterpiller Split Sum Loop",
+        "author": "Virtual",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRemote sums loop: Draw a loop through the grid that visits each cage and does not touch itself orthogonally, but may touch diagonally. A digit N in a cage points at one of the digits X, that is N cells away along the loop in either direction. The number given in the cage is the sum of N+X.",
+        "digits": "5621"
+    },
+    {
+        "title": "Hexed",
+        "author": "No-Feet McGee",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\n5-Difference German Whispers Lines: Adjacent digits along the green lines must have a difference of at least 5.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal.\n\nPalindromes: The digits on a grey line read the same forwards and backwards. ",
+        "digits": "6534"
+    },
+    {
+        "title": "Junction Depot",
+        "author": "Riffclown",
+        "rules": "Irregular 6x6 Sudoku rules apply. Place the digits 1-6 exactly once in every row, column, and bold-outlined region.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "digits": "2641"
+    },
+    {
+        "title": "For Memeristor's Insect Puzzle",
+        "author": "WISTY 'WORD SEACH' FALL",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDouble Indexers: The digit in a shaded cell indicates both the column in which the cell's column number appears in its row and the row in which its row number appears in its column. (i.e. if r4c6 were a 3, there would be a 6 in r4c3 and a 4 in r3c6.)",
+        "digits": "6215"
+    },
+    {
+        "title": "Detour",
+        "author": "grkles",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nLittle Killer: Numbers outside the grid are the sum of the digits pointed to along the indicated diagonal, WITHIN this 6x6 grid. Digits are allowed to repeat along those diagonals as normally allowed by the other rules. ",
+        "digits": "4526"
+    },
+    {
+        "title": "Quadlibet",
+        "author": "Raumplaner",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nQuad sums: A circle at a corner means that one of the four surrounding digits is the sum of the remaining three digits of the corner. Not all dots are necessarily given.\n\nKropki: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
+        "digits": "5631"
+    },
+    {
+        "title": "Shyscrapers",
+        "author": "Lisztes",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nInternal Skyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. Clues indicate the number of skyscrapers that can be seen in that row/column, from the line of sight of the clue.\n\nHOWEVER: the clues are inside of the grid, in the cages as one-digit numbers in pairs. Horizontal cages contain the clues of the given row (the digit on the left is the left side's outside clue, the digit on the right is the right side's outside clue), vertical cages contain the clues of the given column (the top digit is the clue from above the puzzle, the bottom digit is the clue from underneath the puzzle).",
+        "digits": "1243"
+    },
+    {
+        "title": "numbered clues",
+        "author": "Andrewsarchus",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nXV Sums: Digits separated by a V must sum to 5, and digits separated by an X must sum to 10.  Not all X's and V's are necessarily given.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nEven/Odd: Cells containing a grey square are even. Cells containing a grey circle are odd.\n\nNumbered Clues: An X,V, or Kropki dot outside of the grid is placed on the edge of the Nth and (N+1)th cells from the clue, where N is the digit closest to the clue.\n\nAn Even/Odd clue outside of the grid is placed in the Nth cell from the clue where N is the digit closest to the clue.",
+        "digits": "3456"
+    },
+    {
+        "title": "X-Sums Killer Sudoku",
+        "author": "KNT",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nX-Sum Cages: Within cages, digits cannot repeat, including the individual digits placed outside the grid in the cages. For example, if you placed a 12 in an outside clue, you cannot repeat the 1 or 2 in the cage. Digits placed outside the grid in cages become an X-Sum clue. This means the digits outside the grid must be equal to the sum of the first X digits, seen from the direction of clue, where X is the first digit in that row or column. ",
+        "digits": "1362"
+    },
+    {
+        "title": "Renban Sudoku",
+        "author": "Sam Cappleman-Lynes",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Purple lines in the grid are Renban lines. Digits on a line form a set of non-repeating, consecutive digits in any order.",
+        "digits": "5426"
+    },
+    {
+        "title": "Give Me All",
+        "author": "Toir",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nPalindrome: Digits along the grey line read the same forwards and backwards.\n\nPrinting Lines: There are purple lines with circles and arrows attached to them in the grid. The circled digit indicates how many times digits along the line (including the circles and arrows) appear in the cells pointed at by the arrow.\n\nFor example, a line 15(3)2 is valid if the digits it points at are 2; 3; 6; 3, because the 3 appears twice, 2 appears once, and no other digits from the line appear, amounting to 3 times which is the digit in the circle.",
+        "digits": "4563"
+    },
+    {
+        "title": "Black Sheep",
+        "author": "Blobz",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
+        "digits": "3642"
+    },
+    {
+        "title": "Drawers",
+        "author": "Stephane Bura",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDrawers: If a cell contains an arrow, it's called an origin. The cell in the direction of the arrow at a distance equal to the origin's value is called its destination. So a drawer with a 3 in the origin will occupy exactly 3 cells, including the origin and the destination.\n\nFor a given line (row or column) and a given perpendicular direction to this line for the arrows, the destinations are a new arrangement of the origins. This means that they are the same digits, in a different order.\n\nYou can think of the arrows as drawer handles, for drawers of lengths equal to the origins' values. You pull the drawers until the destinations take the place of the origins.",
+        "digits": "6234"
+    },
+    {
+        "title": "Norin",
+        "author": "thetearex15",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nGiven Pencilmarks: Some pencilmarks have been given. These represent all the possible values of that cell.",
+        "digits": "4125"
+    },
+    {
+        "title": "Even/odd and xv",
+        "author": "Casey",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nXV Sums: Digits separated by a V must sum to 5, and digits separated by an X must sum to 10. \n\nEven/Odd: Cells containing a grey square are even. Cells containing a grey circle are odd.",
+        "digits": "6413"
+    },
+    {
+        "title": "Mini Escalator",
+        "author": "Artifex_Amanda",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nThermometers: Digits must strictly increase along the thermometer starting from the bulb end.",
+        "digits": "5241"
+    },
+    {
+        "title": "Skyscrapers",
+        "author": "Bill Murphy",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSkyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. Clues outside the grid indicate the number of skyscrapers that can be seen in that row/column, from the line of sight of the clue.",
+        "digits": "3416"
+    },
+    {
+        "title": "Consecutive Purpl Caterpillars",
+        "author": "Cane_Puzzles",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Purple lines in the grid are Renban lines. Digits on a line form a set of non-repeating, consecutive digits in any order.",
+        "digits": "5463"
+    },
+    {
+        "title": "Cut Across",
+        "author": "Antiknight",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: There are circles in the grid with attached arrows. The digit in the circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.\n\nGreater-than Arrows: There are red arrows as well in the grid. Digits in cells in with a red arrow are larger than all other digits in the cells along the direction of the arrow. ",
+        "digits": "3652"
+    },
+    {
+        "title": "Six Times Tables",
+        "author": "Paws🐾",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nMuliplication Calcudoku: The digits in the cages must multiply to the given totals. Digits CAN repeat if normally allowed by other rules.",
+        "digits": "4352"
+    },
+    {
+        "title": "Geradeweg Sudoku",
+        "author": "Wessel Strijkstra/It's Stark Jr.!",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nGeradeweg: Using orthogonal lines, draw a non-intersecting loop through the centers of some cells that passes through every clued cell. Digits on every straight line segment that touches a clue must have a sum equal to the clue's value. In case of a ?, the value of that clue must be determined. ",
+        "digits": "3621"
+    },
+    {
+        "title": "N-Whispers",
+        "author": "mr.mango (ndsurgenor)",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nN-Whispers: Adjacent digits along the green lines must have a difference of at least N, where N is the number of cells the line passes through.",
+        "digits": "6452"
+    },
+    {
+        "title": "Lightbulb",
+        "author": "Doziam",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nBetween Lines: The digits on a between line must be strictly in-between the digits filled in the circles, excluding the digits in the circles.",
+        "digits": "3621"
+    },
+    {
+        "title": "Renban Arrow Sudoku",
+        "author": "Timberlake",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "digits": "4352"
+    },
+    {
+        "title": "1812 Overture",
+        "author": "starwarigami",
+        "rules": "Place the digits 0-6 exactly once in every row, column, and box.\nTo achieve this, each row, column, and box contains one 'Schrödinger cell' that contains 2 digits.\nThe shaded cells which are shared with other grids must not be s-cells or contain 0.\n\nKiller Cages: Digits in cages cannot repeat and sum to either 12 or 18.",
+        "digits": "3524"
+    },
+    {
+        "title": "Pencilmark Sudoku",
+        "author": "jojo81",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nGiven Pencilmarks: Some pencilmarks have been given. These represent all the possible values of that cell.",
+        "digits": "2465"
+    },
+    {
+        "title": "Green Stripes",
+        "author": "Emphyrio",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nShift Lines: Teal lines in the grid are shift lines. Each cell along one half of the line is paired with the cell at same distance from the center on the other side of the line. On one half of the line, each digit is exactly one more than the digit in the paired cell on the other half of the line. \nFor instance a 4 cell long shift line could have digits 1-3-4-2 or 5-3-2-4, but not 5-3-2-6 (3 is one more than 2 but 5 isn't one more than 6).",
+        "digits": "2315"
+    },
+    {
+        "title": "Optimize",
+        "author": "DadJokes",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDouble Arrows: The sum of the digits in two circles is equal to the sum of the digits on the line connecting them. Digits are allowed to repeat in the circles and on the lines as normally allowed by other rules.",
+        "digits": "6234"
+    },
+    {
+        "title": "International Travel",
+        "author": "99%Sneaky",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nBorder Sum Circles: Split the digits around a white circle into 2 groups of 2 along a thick box border. These two groups must have the same sum as each other, and each of the circles must have a different sum from the other circles. On the circle on the intersection of 4 boxes both vertical and horizontal pairs must be satisfied.\n\nAnti-Border Sum Circles: Split the digits around a grey circle into 2 groups of 2 along a thick box border. These two groups must have a different sum from each other. Both horizontal and vertical pairs must be satisfied.",
+        "digits": "4156"
+    },
+    {
+        "title": "Sequence Lines Sudoku",
+        "author": "Awesomesauce",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSequence lines: Along a line all pairs of adjacent digits must have the same difference in the same direction, whether that is strictly increasing, decreasing, or staying the same.",
+        "digits": "3412"
+    },
+    {
+        "title": "Butterfly Hunt",
+        "author": "Qodec",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nTreasure hunt: A digit in a pink cell tells you how many of the 8 surrounding cells contain digits that are higher than the digit in the pink cell itself. Not all pink cells are necessarily given.",
+        "digits": "6521"
+    },
+    {
+        "title": "Incomparable",
+        "author": "filuta",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nTwo orderings: Each digit is assigned a distinct letter from A-F. This gives the digits two possible orderings: numerical and alphabetical. You can note which letter is which digit in the cells underneath the grid.\n\nThermometers: Values must strictly increase along the thermometer starting from the bulb end, numerically or alphabetically.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive values (numerically or alphabetically) in any order.",
+        "digits": "5146"
+    },
+    {
+        "title": "German Whispers Palindrome Sudoku",
+        "author": "Lizzy01",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.\n\nPalindromes: The digits on a grey line read the same forwards and backwards.",
+        "digits": "2653"
+    },
+    {
+        "title": "Jail",
+        "author": "Memeristor's Fiancée",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.",
+        "digits": "2136"
+    },
+    {
+        "title": "Doing Rounds",
+        "author": "Clarke",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nArrow Loop: Draw a loop for Clarke to travel along counterclockwise, that starts and ends in his favorite spot, indicated by the cat. Clarke's loop must visit all the mint and lettuce.\nAs he goes, Clarke sniffs his surroundings, so his loop doesn't  intersects/crosses or touch itself orthogonally, but his loop may occasionally touch itself diagonally.\nWhen Clarke first enters a row or column containing lettuce, he must travel directly to the cell containing lettuce and nom nom on it. The only lettuce in the grid is in row 2 column 3.\nWhen leaving a mint cell, Clarke rolls on his back and therefore must travel along a diagonal in any direction. In all other cases, his loop travels orthogonally.\n\nClarke's path consists entirely of arrows, starting with an arrow's circle, and then the digit(s) along the arrow (following the path counterclockwise as specified above). When an arrow ends, the next cell on the path becomes the next arrow's circle. All arrow circles consist of a single cell. His favorite spot is the first arrow's circle and not included on the last arrow at all. \n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "digits": "6514"
+    },
+    {
+        "title": "String is the best part",
+        "author": "Benny",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nString Toys: These are Benny's string toys! For all the toys, the digit in toy's cell is the number of digits along the attached string that are higher than the digit in the toy's cell.",
+        "digits": "4352"
+    },
+    {
+        "title": "White Space",
+        "author": "Fuxia",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nArrow Sums: A digit in a cell with arrows is the sum of all adjacent cells in the directions of the arrows. For example, if R2C5 is a 5, then R3C4 could be a 2 and R3C6 a 3.\n\nThe D in the bottom left is for the next puzzle, please ignore this for now.",
+        "digits": "3516"
+    },
+    {
+        "title": "Double Ambiguity",
+        "author": "Sayori",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDoublers: There are six doublers, one in each row, column, and box. For the purposes of the clues, doublers double the value of a cell. Each digit from 1-6 is doubled exactly once. One of these doublers is given by the D in box 2. These doublers apply only to this grid.\n\nThermometers: Digits must strictly increase along the thermometer starting from the bulb end.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. If two arrows are attached to the same circle, they each independently sum to the value in the circle. Digits are allowed to repeat along the arrows as normally allowed by other rules.\n\nThermo-Arrow-Ambiguity: Grey lines with a bulb are either arrows or thermometers. Solvers must determine the line type for each line. Multiple lines coming out of the same bulb may be of different types. ",
+        "digits": "2461"
+    },
+    {
+        "title": "Parity Party Sudoku",
+        "author": "Édouard Lebeau aka SudoKanard",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nParity Party: Numbers outside the grid show the sum up to and including the first even digit or up to and including the first odd digit. The sum can be made up by a single digit.",
+        "digits": "1425"
+    },
+    {
+        "title": "Extra Region Skyscraper",
+        "author": "MavericksJD",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nExtra Region: Within green shaded cells, each digit must appear exactly once. \n\nSkyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. Clues outside the grid indicate the number of skyscrapers seen in that row/column, from the line of sight of the clue.",
+        "digits": "2614"
+    },
+    {
+        "title": "Matreshka Gusenitsa",
+        "author": "Lucian",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRussian Doll Sums: Outside clues indicate that there are two digits which sum to the clue and that the digit(s) between them also sum to the clue. For example, a 5 clue could be fulfilled, for instance, by 1234 or 154.",
+        "digits": "6534"
+    },
+    {
+        "title": "Stitched together",
+        "author": "cornishjohn",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.\n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
+        "digits": "2641"
+    },
+    {
+        "title": "Tetromino Thingy",
+        "author": "Myxo",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSame Sum Tetrominoes: Divide the grid fully into tetrominoes (ie. orthogonally connected areas of size 4). No two tetrominoes of the same shape may touch each other orthogonally, including rotations and reflections. Some tetromino borders have already been given.\nDigits cannot repeat within a tetromino and the digits in each tetromino must sum to the same total.\n\nEven: Cells containing a grey square are even.",
+        "digits": "3562"
+    },
+    {
+        "title": "Counting Turns",
+        "author": "jubale",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Dots: Digits separated by a white dot are consecutive.\n\nMintonette Paths: Draw paths through the centers of some cells, connecting each large circle to exactly one other. Paths may not cross each other, themselves or the Kropki dots. Digits in circles represent the number of turns in their connected path.",
+        "digits": "2314"
+    },
+    {
+        "title": "Parity Arrows",
+        "author": "mnasti2",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nParity Arrows: A digit in a circle is equal to the sum of either only the even digits or only the odd digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "digits": "3645"
+    },
+    {
+        "title": "Cater-cave Kropki Loop",
+        "author": "yttrio",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nCave Kropki Loop: Draw a one-cell-wide loop of orthogonally connected cells. The loop may not touch itself, not even diagonally.\n\nAdjacent digits along the loop must either be consecutive or have a 2:1 ratio.\n\nDigits in circles are on the loop and give the total number of loop cells (including itself) seen in all horizontal/vertical directions combined.  Non-loop cells block the vision.\n\nDigits in squares are NOT on the loop and give the total number of NON-loop cells (including itself) seen in all horizontal/vertical directions combined.  Loop cells block the vision.",
+        "digits": "6241"
+    },
+    {
+        "title": "Killer Sudoku",
+        "author": "Sotek",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.",
+        "digits": "4325"
+    },
+    {
+        "title": "Domino Effect",
+        "author": "3good5you",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDomino Sum Lines: Split each line fully into pairs of adjacent digits. Every pair has the same sum. Different lines may have different sums. \n\nInequality: The inequality symbol points to the smaller digit.",
+        "digits": "6135"
+    },
+    {
+        "title": "6x6 Full Rank X-Sums",
+        "author": "jonn",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nFull Rank: Each row represents two 6-digit numbers, one number reading left-to-right and the other number right-to-left, the same is true for each column (top-to-bottom and bottom-to-top), that gives 24 numbers in total. For example, if row 6 was 123456, this would represent the numbers, reading left-to-right, one hundred twenty-three thousand, four hundred fifty-six and, reading right-to-left, six hundred fifty-four thousand, three hundred twenty-one. Clues outside the grid indicate the numerical 'rank' of the 6-digit number in that row or column from that direction, with 1 being the lowest and 24 being the highest.\n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue.\n\nFull-Rank-X-Sums Duality: Clues outside the grid are both full rank and x-sums clues. All clues adhere to both of the specified rules above. ",
+        "digits": "4612"
+    },
+    {
+        "title": "Corners and Kropki",
+        "author": "KingOfArrows",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow.  \n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
+        "digits": "6351"
+    },
+    {
+        "title": "Oh no, my circles!",
+        "author": "dumediat",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nCoordinate Arrows: Digits on an arrow spell out the coordinates for the digit that is their sum. The row number is written on the tail of the arrow, and the column number is written on the arrow tip. For example, if an arrow looks like this: -1 4>, then there must be a 5 (1+4) in r1c4. \n\nEach arrow must correspond to a different coordinate. \n\nDigits are allowed to repeat along the arrows as normally allowed by other rules. \n",
+        "digits": "1432"
+    },
+    {
+        "title": "Wriggle Wroom",
+        "author": "Chilly",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nMagic Labyrinth Sequence Snake: There is a single, non-branching, 1-cell wide, orthogonally-connected 'snake' in the grid. The snake may not touch itself orthogonally or diagonally.\n\nThe snake contains a potentially repeating sequence of three distinct digits, to be determined by the solver, called the Magic Labyrinth Sequence (MLS). The head of the snake is located below its tail. The MLS must appear in numerically increasing order from head to tail. For example, if the MLS is {2, 4, 6}, the ordered contents of the the snake could be: (head) 2 4 6 2 4 6 (tail).\n\nHowever, Digits not included in the MLS can appear anywhere along the snake. So the ML sequence doesn't need to start or end exactly at the head or tail. For example, another valid snake, using the same MLS of {2, 4, 6}, could be: (head) 5 3 2 4 6 5 1 2 5 1 4 1 6 1 (tail).\n\nNon-consecutive dots: Digits in cells separated by red dots must be non-consecutive. Additionally, the snake must visit exactly one of the cells separated by red dots.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order. Additionally, the snake visits exactly one of every two adjacent cells along the line.",
+        "digits": "6351"
+    },
+    {
+        "title": "Even It Up",
+        "author": "sujoyku",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nQuadruples: Digits in the circles must all appear at least once in the cells touching them.\n\nEven count: Digits in the circles also indicate how many even digits those four surrounding cells contain. \n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. If two arrows are attached to the same circle, they each independently sum to the value in the circle. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "digits": "5214"
+    },
+    {
+        "title": "Multitasking",
+        "author": "Cris Moore",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue.\n\nSandwich Sums: Digits outside the grid indicate the sum of the digits that are placed in-between the 1 and 6 in that row or column.\n\nLittle Killer: Numbers outside the grid are the sum of the digits pointed to along the indicated diagonal. Digits are allowed to repeat along those diagonals as normally allowed by the other rules.\n\nX-sum, Sandwich, Little Killer Duality: The clues with value 'a' outside the grid are equal to the same integer number. Both clues are X-sums and sandwich sums within the row and little killers along both indicated diagonal.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
+        "digits": "4125"
+    },
+    {
+        "title": "Sudokupillar",
+        "author": "Jay Dyer",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal.",
+        "digits": "1536"
+    },
+    {
+        "title": "Parasite",
+        "author": "AnalyticalNinja",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Line: Adjacent digits along the grey line must either be consecutive or have a 1:2 ratio.",
+        "digits": "4352"
+    },
+    {
+        "title": "Gravitational Lensing",
+        "author": "heliopolix",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nBlack Holes: Place six black holes, one in each row, column, and box. Digits may not repeat on black holes.  For the purposes of the clues in this grid, black holes have a value of zero. \n\nWhite Holes (Doublers): Place six white holes, one in each row, column, and box. Digits may not repeat on white holes. For the purposes of the clues in this grid, white holes double the value of a cell.  \nWhite holes and black holes never share the same cell.\n\nKiller Cages: Digits in cages cannot repeat (though values can). Values within a cage sum to the clue in the top left. A killer cage must contain an equal number of black and white holes, but that number may be zero.\n\nTeleporting Little Killer: The clue outside the grid with an arrow is a teleporting little killer. It indicates that the sum of digits along a diagonally travelling path starting in the cell pointed at by the arrow is greater than zero. This path only ends when it reaches an edge of the grid. When the path enters a black hole cell it teleports to the white hole cell with the same digit maintaining the direction of travel of the original path and including the value of both holes in its sum. The path must visit the same number of black and white holes, but that number may be zero. \n\nHole Sandwiches: Clues outside the grid without arrows give the sum of the digits between black and white holes in the indicated row or column, not including the values of the black and white holes in the sum.",
+        "digits": "1526"
+    },
+    {
+        "title": "Dutch Six",
+        "author": "rad",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDutch Whispers Lines: Adjacent digits along the orange lines must have a difference of at least 2.\n\nXV Sums: Digits separated by a V must sum to 5.",
+        "digits": "4362"
+    },
+    {
+        "title": "Outies",
+        "author": "RainbowSprinklez",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
+        "digits": "2156"
+    },
+    {
+        "title": "Kvell",
+        "author": "ZegreS",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nThermometers: Digits must strictly increase along the thermometer starting from the bulb end.",
+        "digits": "4521"
+    },
+    {
+        "title": "Sandwich",
+        "author": "RockyRoer",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSandwich Sums: Digits outside the grid indicate the sum of the digits that are placed in-between the 1 and 6 in that row or column.",
+        "digits": "2653"
+    },
+    {
+        "title": "Choco Banana",
+        "author": "Menderbug",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nChoco Banana: Shade some cells such that all groups of shaded cells are rectangular and that all groups of unshaded cells are not rectangular. Adjacent cells of the same shading are in the same group. \n\nCircled digits indicate the size of the group they are in, whether shaded or unshaded. A group may have any number of circled digits.",
+        "digits": "3624"
+    },
+    {
+        "title": "Slow to the Rub",
+        "author": "FuryfulFawful",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSlow Thermometers: Digits must not decrease along the thermometer starting from the bulb end.",
+        "digits": "1562"
+    },
+    {
+        "title": "Primed for some math",
+        "author": "Qinlux",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nTouching Primes: The 4 digits orthogonally touching a cell containing a circle must sum to a prime number. Similarly, the 4 digits diagonally touching a cell containing a circle must sum to a prime number. The 2 primes around a circle don't necessarily have the same value.\n\nSums only include digits entirely within this grid. So for the circle in row 2 column 6 there is 2 diagonal cells, and 3 orthogonal cells summing to a prime each.",
+        "digits": "3451"
+    },
+    {
+        "title": "caterdokupillar pozl",
+        "author": "PulverizingPancake",
+        "rules": "Normal 6x6 sudoku rules apply.\n\nZipper Lines: Lavender lines in the grid are zipper lines. Digits equidistant from the line's center must sum to the same value. If a zipper line has an odd number of cells, the central cell's digit defines this sum. Digits may repeat on these lines if allowed by other sudoku rules. For example, a valid zipper line could be 3146253 which has a sum value of 6.",
+        "digits": "1526"
+    },
+    {
+        "title": "Quiet neighbors",
+        "author": "DreamLibrarian",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
+        "digits": "4352"
+    },
+    {
+        "title": "Caged Consecutives",
+        "author": "Tulrak",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nKiller Cages: Digits in cages cannot repeat.",
+        "digits": "4651"
+    },
+    {
+        "title": "XV-Inequality",
+        "author": "CJK",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nInequality: Inequality symbols point to the smaller digit.\n\nV Sums: Digits separated by a V symbol must sum to 5.\n\nInequality-V-Ambiguity: All clues are either Inequality symbols or V symbols. All V symbols are oriented correctly, that is with their pointy side down. ",
+        "digits": "1563"
+    },
+    {
+        "title": "Xternal Spikes",
+        "author": "gdc",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nArrows:  The value in a circle is equal to the sum of the values on the attached arrow. Values outside the grid on arrows may exceed 6.\n\nX-Sum: Values placed outside the grid on arrows become an X-Sum clue.  That is, the value outside the grid must be equal to the sum of the first X digits, seen from the direction of clue, where X is the first digit in that row or column.",
+        "digits": "5462"
+    },
+    {
+        "title": "Entropic Whisperpillar",
+        "author": "Nell Gwyn",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nEntropic Whispers: Any two digits exactly one or two steps apart along the orange-and-yellow line must differ by at least two. \nIn other words, adjacent digits must differ by at least two and any two digits which share the same adjacent digit must also differ by at least two. ",
+        "digits": "4316"
+    },
+    {
+        "title": "XY Sandwiches",
+        "author": "Scojo",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nXY Sandwiches: Clues outside the grid give the sum of the digits between the Xth and Yth cells in that row or column, where X and Y are the first two cells seen from the direction of the clue.  For example, if the first two digits in the row are 2 and 5 then the digits between the 2nd and 5th cells (so the 3rd and 4th digits) when summed will give the value clued.",
+        "digits": "3521"
+    },
+    {
+        "title": "Candypillar",
+        "author": "Niverio",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nXV Sums: Digits separated by a V must sum to 5, and digits separated by an X must sum to 10.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nXV-Kopki-Ambiguity: There are 3 differently colored dots. The 3 colors represent 3 of the 4 constraints of White Kropki, Black Kropki, V and X clues (explained above). Which colour represents which constraint must be deduced by the solver, including which one is left out.\n\nPalindromes: The digits on a grey line read the same forwards and backwards.",
+        "digits": "6412"
+    },
+    {
+        "title": "Odd-Even Portal Sudoku",
+        "author": "Madmahogany",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nEven/Odd: Cells containing a grey square are even. Cells containing a grey circle are odd.\n\nPortal cells: Red squares are 'portal' cells. If a red cell in row R, column C has a value V, then the cell in row V, column R has a value C, and the cell in row C, column V has a value R. That is, if we represent the red cell as (R,C,V), then (V,R,C) and (C,V,R) also hold in the Sudoku grid. For example, if row 1 column 2 is 5 then row 5 column 1 is 2 and row 2 column 5 is 1.",
+        "digits": "5136"
+    },
+    {
+        "title": "Group Sums Sudoku",
+        "author": "Prasanna Seshadri",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nGroup sums: A number in a circle gives the sum of the digits in its surrounding cells. These digits can repeat if allowed by other rules. ",
+        "digits": "1352"
+    },
+    {
+        "title": "The Whispering Nimmersatt",
+        "author": "BugsCantHide",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.",
+        "digits": "5643"
+    },
+    {
+        "title": "Diagonal Skyscrapers",
+        "author": "punchingcatto",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSkyscrapers: Digits in the grid represent skyscrapers, with their values corresponding to their heights. Taller skyscrapers obscure all shorter skyscrapers behind them. Clues outside the grid indicate the number of skyscrapers seen in the grid along the indicated direction.",
+        "digits": "3254"
+    },
+    {
+        "title": "Indexer Sudoku",
+        "author": "SSGranor",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nDouble Indexers: The digit in a shaded cell indicates both the column in which the cell's column number appears in its row and the row in which its row number appears in its column. (i.e. if r4c6 were a 3, there would be a 6 in r4c3 and a 4 in r3c6.)",
+        "digits": "4163"
+    },
+    {
+        "title": "Caterdokupillar Renban",
+        "author": "Lombax999",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.",
+        "digits": "2516"
+    },
+    {
+        "title": "34 Degree Caterdoku",
+        "author": "Twototenth",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nRow Indexers: Each digit in columns 3 and 4 indicates the position of the 3 and 4 in the same row (that is, if row 1 column 3 is a 5, then row 1 column 5 is a 3). \n\nThermometers: Digits must strictly increase along the thermometer starting from the bulb end. ",
+        "digits": "4351"
+    },
+    {
+        "title": "M for Massive Clones",
+        "author": "Botaku",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nClones: Cages contain exactly the same digits in the same relative positions. Digits are allowed to repeat within the cages as normally allowed by other rules.",
+        "digits": "1624"
+    },
+    {
+        "title": "Aileron",
+        "author": "Teal",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRegion Sum Lines: Blue lines are split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal.",
+        "digits": "3415"
+    },
+    {
+        "title": "Nabner kropki sudoku",
+        "author": "arctan",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nNabner Lines: If a digit appears on a yellow line, then the digits consecutive with it do not appear on the line. Digits cannot repeat on a Nabner line. For example, if a 2 appears on the line, then 1 and 3 do not appear on the line, and another 2 also does not appear.\n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
+        "digits": "1542"
+    },
+    {
+        "title": "Find the Whispers",
+        "author": "randall",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nX-Sums: Digits outside the grid indicate the sum of the first X digits, where X is the digit in the closest cell to the clue. With ? representing any valid X-Sum value and >1 representing any X-Sum value greater than 1. This sequence of the first X cells will also be a valid German Whispers line.\n\nGerman Whispers Lines: Adjacent digits along a German Whispers line must have a difference of at least 3. ",
+        "digits": "1643"
+    },
+    {
+        "title": "Crescent Moon",
+        "author": "Walker",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. ",
+        "digits": "6152"
+    },
+    {
+        "title": "German Whispers",
+        "author": "Yoshi Baroshi",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3.",
+        "digits": "2634"
+    },
+    {
+        "title": "Sunday stroll",
+        "author": "Jonesy",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.\n\nKiller Path: Draw a path that moves strictly orthogonally, starts in one circle and ends in the other circle. The path may touch itself orthogonally or diagonally, but may not branch or cross itself. The path visit each box at least once.\n\nAll digits on the path inside a box will sum to the same value as the killer cage clue for that box. Multiple visits count toward the same sum.\n\nThe path must always go through at least one cell of the killer cage but can never go through all cells of the cage.\n\nThe path in box 5 is unrestricted by the above rules. \n",
+        "digits": "4152"
+    },
+    {
+        "title": "Irregular Palindrome Kropki",
+        "author": "Charlie Pugh",
+        "rules": "Normal Irregular Sudoku Rules Apply\n\nGrey lines are palindromes and contain the same digits when read from each direction\n\nDigits separated by a white dot must be consecutive\nDigits separated by a black dot must have a ratio of 2:1\nNot all possible digits are necessarily given",
+        "digits": "6423"
+    },
+    {
+        "title": "Caterdokukropki",
+        "author": "myShoggoth",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given. \n",
+        "digits": "5634"
+    },
+    {
+        "title": "Simon Says",
+        "author": "Derektionary",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nLook-and-say Arrows: The digit on the arrow's tip says how many times the digit in the arrow's circle appears along the set of diagonal cells that the arrow points to.",
+        "digits": "4251"
+    },
+    {
+        "title": "Fingers",
+        "author": "Rubenscube",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
+        "digits": "3516"
+    },
+    {
+        "title": "Triangulation",
+        "author": "damasosos92",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nRegion Sum Lines: These lines split into segments by box borders. Within each individual line, the sum of the digits on each segment is the same. The sum of segments on different lines may or may not be equal. \n\nModular Lines: Along these lines any three adjacent digits along a modular line have a distinct remainder when dividing by 3. Digits that share a remainder are (1, 4); (2, 5); (3, 6). Digits may repeat on these lines if allowed by other rules.\n\nRegion-Sum-Lines-Modular Duality: Grey lines are both region sum lines and modular lines. They adhere to the properties above. A line within a single box does not have any implications for region sum line rules.",
+        "digits": "5142"
+    },
+    {
+        "title": "Bait",
+        "author": "zetamath",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.\n\nKropki Dots: Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.",
+        "digits": "6534"
+    },
+    {
+        "title": "Memristor's disappointment ",
+        "author": "Donatello_86 ",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages sum to the value in the top left.\n\nGerman Whispers Lines: Adjacent digits along the green lines must have a difference of at least 3. ",
+        "digits": "4612"
+    },
+    {
+        "title": "Productive",
+        "author": "Oddlyeven",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nProduct-Sum Lines: Digits along a line sum to the product of the digits in the squares at either end of the line. Digits may repeat on a line as normally allowed by the other rules.",
+        "digits": "3465"
+    },
+    {
+        "title": "German Snake",
+        "author": "Oripy",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nGerman Snake: Shade some cells to form a non-intersecting path which does not touch itself orthogonally or diagonally. Black circles indicate the start and end of the path. While white circles indicate the cell is a part of the path.\nThe snake forms a German Whispers Line. Adjacent digits along the line must have a difference of at least 3.",
+        "digits": "5341"
+    },
+    {
+        "title": "Parity Party",
+        "author": "Lulero",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nEven/Odd: Cells containing a grey square are even. Cells containing a grey circle are odd.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.",
+        "digits": "6153"
+    },
+    {
+        "title": "higher-lower",
+        "author": "paletron",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nHigher-lower lines: Along the pink lines, each digit must be strictly greater than or strictly less than all adjacent digits along the line. That is, the line consists of an alternating pattern of higher digit, lower digit, higher digit, lower digit, and so on.",
+        "digits": "2541"
+    },
+    {
+        "title": "Renbank",
+        "author": "Dennis Chen",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nRenban Lines: Digits on a purple line form a set of non-repeating, consecutive digits in any order.",
+        "digits": "1653"
+    },
+    {
+        "title": "Box Sum Killer",
+        "author": "Scruffamudda",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nUnique Box Sums: Digits within cages sum to cage totals that have to be determined by the solver. Cages within the same box have the same total. Cages in different boxes have different totals. \n",
+        "digits": "4521"
+    },
+    {
+        "title": "Stepping Stones",
+        "author": "Meggen033",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKropki Dots: Digits separated by a white dot are consecutive. Digits separated by a black dot have a 1:2 ratio. Not all dots are necessarily given.\n\nKiller Cages: Digits in cages sum to the value in the top left.",
+        "digits": "6312"
+    },
+    {
+        "title": "Invisible Sums",
+        "author": "KenGlue",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSum Some Arrows: The sum of all digits behind the arrow's tail is equals the sum of the first N digits pointed at by the arrow's tip, where N must be determined by the solver and may be different for each arrow. \n",
+        "digits": "3541"
+    },
+    {
+        "title": "Arrow Sudoku",
+        "author": "Nityant Agarwal",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nArrows: A digit in a circle is equal to the sum of the digits on the attached arrow. Digits are allowed to repeat along the arrows as normally allowed by other rules.",
+        "digits": "3412"
+    },
+    {
+        "title": "Health Bar",
+        "author": "Black_Doom",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\n​​Hit Points: Clues outside the grid give the sum of digits that are equal to their distance from the clue. For example, a row of 152436 would have a 11 clue on the left, since 1, 4, and 6 match their positions, and a 5 clue on the right, since only the 5 matches its position from that direction.",
+        "digits": "1534"
+    },
+    {
+        "title": "Pay Attention, residue class!",
+        "author": "Dr Logic",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nMod 3 Cages: The clue in a cage is the sum of digits in that cage modulo 3. In other words, if you divide the sum of the digits in a cage by 3, the remainder will be equal to the cage clue.\n\nModular Lines: Any three adjacent digits along a teal line have a distinct remainder when dividing by 3. Digits that share a remainder are (1, 4); (2, 5); (3, 6). Digits may repeat on these lines if allowed by other rules.\n\nKropki Dots: Digits separated by a white dot are consecutive. Not all dots are necessarily given.\n\n\n\n",
+        "digits": "2351"
+    },
+    {
+        "title": "Caterpillarsandthermowich",
+        "author": "PrimeWeasel",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nSandwich Sums: Clues outside the grid indicate the sum of the digits that are placed in-between the 1 and 6 in that row or column. A '?' may replace any value from 0-9, but no clue may have a leading zero.\n\nThermometer Sandwiches: Additionally, in rows/columns with Sandwich clues, the digits 1 and 6 and the digits that are placed in-between them all must be in increasing order when seen from the Sandwich clue. \n",
+        "digits": "3465"
+    },
+    {
+        "title": "Killer Dominos",
+        "author": "Tahg",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages sum to the value in the top left if given.\n\nDominos: No two cages contain the same set of digits.",
+        "digits": "4152"
+    },
+    {
+        "title": "Walkies",
+        "author": "Lola",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nLola loves going for a walk, but where did she go? Draw a non-crossing line in the grid connecting the centres of adjacent cells to form a loop that visits each region exactly once. The line may move diagonally and must pass through each set of pawmarks. Adjacent digits on the line must have a difference of at most 1.",
+        "digits": "2634"
+    },
+    {
+        "title": "Battenburger",
+        "author": "Cura",
+        "rules": "Normal 6x6 Sudoku rules apply.\n\nKiller Cages: Digits in cages cannot repeat and sum to the value in the top left.\n\nBattenburg: Around Battenburg symbols (grey checkered squares on corners) one pair of diagonal digits has to be even, the other one has to be odd.\nNot all Battenburgs are necessarily given.",
+        "digits": "4351"
+    },
+    {
+        "title": "The Rear End",
+        "author": "Panthera",
+        "rules": "Normal 6x6 Sudoku rules apply. \n\nJapanese Sums: the squares outside the grid indicate the order of the runs of contiguous cells that must be shaded the color of the clue. The number in the square indicates the sum of the cells in the run. All shaded runs are given.\n\nColors used in this puzzle are Green, Red, Yellow. For best results, remove all unshaded marking you have done once completed."
+    }
 ]

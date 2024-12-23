@@ -10,16 +10,16 @@
     </map> -->
 
     <p class="margin-bottom">Ce document est destiné à vous aider à compléter le Caterdokupillar. Commencez en haut à gauche et, à mesure que chaque puzzle 6x6 est terminé, 4 chiffres seront automatiquement reportés comme valeurs pour le puzzle suivant. Lisez attentivement les règles de chaque puzzle, car beaucoup contiennent des variantes.</p>
-    <p class="margin-bottom">Furthermore, if you get stuck on a particular puzzle, don't fret, as that's where this document comes in. It not only contains the rules for each puzzle, but most importantly, it has the digits you need for the next puzzle available for viewing.</p>
-    <p class="margin-bottom">We want to express our sincere appreciation to everyone who contributed to this project: the 189 creative puzzle setters, 15 dedicated volunteers, and our thorough testers. Your hard work has brought this project to life. Thanks also to you, our solvers, for being part of the experience.</p>
-    <p class="margin-bottom">The Caterdokupillar is available in several forms. It is available as a whole singular puzzle and as chunks for easier handling. All links will open in a new tab.</p> 
-    <p class="margin-bottom">The SudokuPad desktop versions are controlled like so: to pan, right-click and drag; to zoom, scroll. Note the SudokuPad full version does have some lag to it, so you may prefer the chunks. Important note: If a puzzle requires you to enter digits outside the grid, use center marking, not normal digits. This is to ensure the answer checker works. Also note that if you accidentally put a normal digit anywhere other than in a grid, the answer check will break. A helpful tip is to disable the killer calculator. This will greatly reduce the performance issues.</p>
-    <p class="margin-bottom">The Penpa+ versions are only available in chunks.</p>
+    <p class="margin-bottom">De plus, si vous êtes bloqué sur un puzzle particulier, ne vous inquiétez pas, car c'est là que ce document entre en jeu. Il contient non seulement les règles de chaque puzzle, mais surtout, il contient les chiffres dont vous avez besoin pour le prochain puzzle disponible pour consultation.</p>
+    <p class="margin-bottom">Nous tenons à exprimer notre sincère gratitude à tous ceux qui ont contribué à ce projet : les 189 créateurs de puzzles créatifs, les 15 bénévoles dévoués et nos testeurs méticuleux. Votre travail acharné a donné vie à ce projet. Merci également à vous, nos résolveurs, d'avoir participé à l'expérience.</p>
+    <p class="margin-bottom">Le Caterdokupillar est disponible sous plusieurs formes. Il est disponible sous forme de puzzle singulier entier et sous forme de morceaux pour une manipulation plus facile. Tous les liens s'ouvriront dans un nouvel onglet.</p> 
+    <p class="margin-bottom">Les versions de bureau de SudokuPad ​​sont contrôlées comme suit : pour faire un panoramique, un clic droit et un glissement ; pour zoomer, faire défiler. Notez que la version complète de SudokuPad ​​présente un certain décalage, vous préférerez donc peut-être les blocs. Remarque importante : si un puzzle nécessite de saisir des chiffres en dehors de la grille, utilisez le marquage central et non les chiffres normaux. Cela permet de garantir le bon fonctionnement du vérificateur de réponse. Notez également que si vous placez accidentellement un chiffre normal ailleurs que dans une grille, la vérification de la réponse échouera. Un conseil utile consiste à désactiver la calculatrice tueuse. Cela réduira considérablement les problèmes de performances.</p>
+    <p class="margin-bottom">Les versions Penpa+ ne sont disponibles qu'en blocs.</p>
     <v-sheet theme="light" width="400">
       <v-expansion-panels variant="accordion" multiple>
         <v-expansion-panel>
           <v-expansion-panel-title>
-            SudokuPad links
+            liens SudokuPad
           </v-expansion-panel-title>
           <v-expansion-panel-text>
             <p class="margin-bottom"><a href="https://beta.sudokupad.app/memeristor/caterdokupillar?setting-nogrid=1&setting-largepuzzle=1" target="_blank">Whole puzzle</a></p>
@@ -71,7 +71,7 @@
         </v-expansion-panel>
         <v-expansion-panel>
           <v-expansion-panel-title>
-            Penpa+ links
+            liens Penpa+
           </v-expansion-panel-title>
           <v-expansion-panel-text>
             <ul class="link-list">
@@ -118,10 +118,10 @@
           ></v-text-field>
         </v-col>
         <v-col cols="12" md="3" sm="2" class="d-flex justify-center">
-          <v-btn class="mt-4" @click="openAllPanels" size="x-large">Open Selected Puzzles' Rules</v-btn>
+          <v-btn class="mt-4" @click="openAllPanels" size="x-large">Ouvrir les Puzzles séléctionnés' Rules</v-btn>
         </v-col>
         <v-col cols="12" md="3" sm="2" class="d-flex justify-center">
-          <v-btn class="mt-4" @click="closeAllPanels" size="x-large">Close All Puzzles' Rules</v-btn>
+          <v-btn class="mt-4" @click="closeAllPanels" size="x-large">Fermez tous les Puzzles' Rules</v-btn>
         </v-col>
       </v-row>
     </v-container>
@@ -130,7 +130,7 @@
     <v-sheet class="ma-2 pa-2 darker" elevation="5" rounded="true" v-if="filteredPuzzles.length > 0" width="400" v-for="(puzzle,index) in filteredPuzzles" >
       <div style="text-align: center;">
         <h3 v-html="`${filteredPuzzles[index].highlightedIndex} ${filteredPuzzles[index].highlightedTitle}`"></h3>
-        <h3 v-html="`by ${filteredPuzzles[index].highlightedAuthor}`"></h3>
+        <h3 v-html="`par ${filteredPuzzles[index].highlightedAuthor}`"></h3>
       </div>
       <v-expansion-panels v-model="openPanels[filteredPuzzles[index].originalIndex]" variant="accordion" multiple>
         <v-expansion-panel title="Rules">
